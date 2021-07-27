@@ -2,3 +2,15 @@
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+html {
+  height: 100%;
+  background-color: #1A1A1A;
+  color: white;
+  background-image: repeating-linear-gradient(to right, transparent 0px, transparent 149px, #2c2c2c 150px, #2c2c2c 151px);
+}
+
+body {
+  background-color: transparent;
+  color: inherit;
+}
