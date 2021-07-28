@@ -5,12 +5,72 @@
 
 html {
   height: 100%;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   color: white;
-  background-image: repeating-linear-gradient(to right, transparent 0px, transparent 149px, #2c2c2c 150px, #2c2c2c 151px);
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent 0px,
+    transparent 149px,
+    #2c2c2c 150px,
+    #2c2c2c 151px
+  );
 }
 
 body {
   background-color: transparent;
   color: inherit;
+  font-family: 'Breakers';
 }
+
+@font-face {
+    font-family: 'Breakers';
+    src: url('/assets/fonts/Breakers-Black.eot');
+    src: url('/assets/fonts/Breakers-Black.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Breakers-Black.woff2') format('woff2'),
+        url('/assets/fonts/Breakers-Black.woff') format('woff'),
+        url('/assets/fonts/Breakers-Black.ttf') format('truetype'),
+        url('/assets/fonts/Breakers-Black.svg#Breakers-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Breakers';
+    src: url('/assets/fonts/Breakers-Regular.eot');
+    src: url('/assets/fonts/Breakers-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Breakers-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Breakers-Regular.woff') format('woff'),
+        url('/assets/fonts/Breakers-Regular.ttf') format('truetype'),
+        url('/assets/fonts/Breakers-Regular.svg#Breakers-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Breakers';
+    src: url('/assets/fonts/Breakers-Thin.eot');
+    src: url('/assets/fonts/Breakers-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Breakers-Thin.woff2') format('woff2'),
+        url('/assets/fonts/Breakers-Thin.woff') format('woff'),
+        url('/assets/fonts/Breakers-Thin.ttf') format('truetype'),
+        url('/assets/fonts/Breakers-Thin.svg#Breakers-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Breakers';
+    src: url('/assets/fonts/Breakers-Ultra.eot');
+    src: url('/assets/fonts/Breakers-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Breakers-Ultra.woff2') format('woff2'),
+        url('/assets/fonts/Breakers-Ultra.woff') format('woff'),
+        url('/assets/fonts/Breakers-Ultra.ttf') format('truetype'),
+        url('/assets/fonts/Breakers-Ultra.svg#Breakers-Ultra') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
