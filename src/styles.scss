@@ -24,19 +24,6 @@ body {
 
 @font-face {
     font-family: 'Breakers';
-    src: url('/assets/fonts/Breakers-Black.eot');
-    src: url('/assets/fonts/Breakers-Black.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/Breakers-Black.woff2') format('woff2'),
-        url('/assets/fonts/Breakers-Black.woff') format('woff'),
-        url('/assets/fonts/Breakers-Black.ttf') format('truetype'),
-        url('/assets/fonts/Breakers-Black.svg#Breakers-Black') format('svg');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Breakers';
     src: url('/assets/fonts/Breakers-Regular.eot');
     src: url('/assets/fonts/Breakers-Regular.eot?#iefix') format('embedded-opentype'),
         url('/assets/fonts/Breakers-Regular.woff2') format('woff2'),
@@ -50,27 +37,13 @@ body {
 
 @font-face {
     font-family: 'Breakers';
-    src: url('/assets/fonts/Breakers-Thin.eot');
-    src: url('/assets/fonts/Breakers-Thin.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/Breakers-Thin.woff2') format('woff2'),
-        url('/assets/fonts/Breakers-Thin.woff') format('woff'),
-        url('/assets/fonts/Breakers-Thin.ttf') format('truetype'),
-        url('/assets/fonts/Breakers-Thin.svg#Breakers-Thin') format('svg');
-    font-weight: 100;
+    src: url('/assets/fonts/BreakersW00-Bold.eot');
+    src: url('/assets/fonts/BreakersW00-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/BreakersW00-Bold.woff2') format('woff2'),
+        url('/assets/fonts/BreakersW00-Bold.woff') format('woff'),
+        url('/assets/fonts/BreakersW00-Bold.ttf') format('truetype'),
+        url('/assets/fonts/BreakersW00-Bold.svg#BreakersW00-Bold') format('svg');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
-
-@font-face {
-    font-family: 'Breakers';
-    src: url('/assets/fonts/Breakers-Ultra.eot');
-    src: url('/assets/fonts/Breakers-Ultra.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/Breakers-Ultra.woff2') format('woff2'),
-        url('/assets/fonts/Breakers-Ultra.woff') format('woff'),
-        url('/assets/fonts/Breakers-Ultra.ttf') format('truetype'),
-        url('/assets/fonts/Breakers-Ultra.svg#Breakers-Ultra') format('svg');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
