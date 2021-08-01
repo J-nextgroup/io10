@@ -1,8 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
 
 $container-max-widths: (
-  xl: 1662px
+  xl: 1662px,
 );
+
+@font-face {
+  font-family: 'Breakers';
+  src: url('/assets/fonts/Breakers-Regular.eot');
+  src: url('/assets/fonts/Breakers-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('/assets/fonts/Breakers-Regular.woff2') format('woff2'),
+    url('/assets/fonts/Breakers-Regular.woff') format('woff'),
+    url('/assets/fonts/Breakers-Regular.ttf') format('truetype'),
+    url('/assets/fonts/Breakers-Regular.svg#Breakers-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Breakers';
+  src: url('/assets/fonts/BreakersW00-Bold.eot');
+  src: url('/assets/fonts/BreakersW00-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('/assets/fonts/BreakersW00-Bold.woff2') format('woff2'),
+    url('/assets/fonts/BreakersW00-Bold.woff') format('woff'),
+    url('/assets/fonts/BreakersW00-Bold.ttf') format('truetype'),
+    url('/assets/fonts/BreakersW00-Bold.svg#BreakersW00-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
@@ -26,28 +54,11 @@ body {
   font-family: 'Breakers';
 }
 
-@font-face {
-    font-family: 'Breakers';
-    src: url('/assets/fonts/Breakers-Regular.eot');
-    src: url('/assets/fonts/Breakers-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/Breakers-Regular.woff2') format('woff2'),
-        url('/assets/fonts/Breakers-Regular.woff') format('woff'),
-        url('/assets/fonts/Breakers-Regular.ttf') format('truetype'),
-        url('/assets/fonts/Breakers-Regular.svg#Breakers-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Breakers';
-    src: url('/assets/fonts/BreakersW00-Bold.eot');
-    src: url('/assets/fonts/BreakersW00-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/BreakersW00-Bold.woff2') format('woff2'),
-        url('/assets/fonts/BreakersW00-Bold.woff') format('woff'),
-        url('/assets/fonts/BreakersW00-Bold.ttf') format('truetype'),
-        url('/assets/fonts/BreakersW00-Bold.svg#BreakersW00-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
 }
