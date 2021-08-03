@@ -1,46 +1,72 @@
 .piccalilly {
-  position: absolute;
-  width: 1920px;
-  height: 805px;
+  position: relative;
+  border: 0;
+  width: 100%;
   left: 0px;
-  top: 3672px;
-  background-image: url('/assets/5.TEASER PICALILLY.png');
 }
 
 .tomato {
   position: absolute;
-  width: 206.35px;
-  height: 200.84px;
-  left: 1220px;
-  top: 4137px;
-  background-image: url('/assets/tomato.svg');
+  border: 0;
+  left: 63.5%;
+  top: 42%;
+  width: 9%;
 }
 
 .lettuce {
   position: absolute;
-  width: 507.16px;
-  height: 398.94px;
-  left: 1282px;
-  top: 3765px;
+  left: 66.7%;
+  top: 10%;
   z-index: 100;
-  background-image: url('/assets/lettuce.svg');
+  width: 26%;
 }
 
 .union {
   position: absolute;
-  width: 194.43px;
-  height: 364.09px;
-  left: 1598px;
-  top: 4096px;
-  z-index: 0;
-  background-image: url('/assets/union.svg');
+  left: 83.5%;
+  top: 38.5%;
+  width: 10%;
 }
 
 .garlic {
   position: absolute;
-  width: 146.74px;
-  height: 142.15px;
-  left: 1451px;
-  top: 3694px;
-  background-image: url('/assets/garlic.svg');
+  left: 76%;
+  top: 2%;
+  width: 7%;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+}
+
+.inner {
+  padding: 60px 20px;
+}
+
+.header {
+  margin-top: 30px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 100%;
+}
+
+.content {
+  margin-top: 22px;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 125%;
+}
+
+.textbox {
+  position: absolute;
+  left: 161px;
+  top: 280px;
+  width: 479px;
+  height: 524px;
+  background-color: #ffffff;
 }
