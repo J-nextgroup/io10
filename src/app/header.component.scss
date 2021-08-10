@@ -1,0 +1,97 @@
+.header {
+  top: 0;
+  padding-top: 30px;
+  background-color: black;
+}
+
+.toggle-icon {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+}
+
+.icon-bar {
+  background: linear-gradient(
+    90deg,
+    #00ce7c 0.04%,
+    #5cc3b0 31.81%,
+    #00a1de 71.9%,
+    #005971 100.02%
+  );
+  height: 3px;
+  margin: 3px 0;
+  float: right;
+}
+
+.icon-bar1 {
+  width: 30px;
+}
+
+.icon-bar2 {
+  width: 20px;
+}
+
+.icon-close {
+  display: block;
+  font-size: 25px;
+  background-color: #005971;
+  background-image: linear-gradient(
+    90deg,
+    #00ce7c 0.04%,
+    #5cc3b0 31.81%,
+    #00a1de 71.9%,
+    #005971 100.02%
+  );
+  background-size: 100%;
+  background-clip: text;
+  text-transform: lowercase;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.icon-text {
+  font-size: 13px;
+  background-color: #005971;
+  background-image: linear-gradient(
+    90deg,
+    #00ce7c 0.04%,
+    #5cc3b0 31.81%,
+    #00a1de 71.9%,
+    #005971 100.02%
+  );
+  background-size: 100%;
+  background-clip: text;
+  text-transform: lowercase;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.logo {
+  display: block;
+}
+
+.menu-item {
+  font-family: BreakersW00-Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100%;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}
+
+.collapse .menu-item {
+  font-size: 22px;
+  line-height: 125%;
+  color: white;
+  cursor: pointer;
+  padding-top: 47px;
+}
