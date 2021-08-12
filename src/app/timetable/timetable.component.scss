@@ -1,0 +1,132 @@
+.header {
+  font-family: BreakersW00-Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: lowercase;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+
+.timetable_header {
+  background: linear-gradient(
+    90deg,
+    #00ce7c 0.04%,
+    #5cc3b0 31.81%,
+    #00a1de 71.9%,
+    #005971 100.02%
+  );
+  height: 40px;
+  width: 200px;
+  font-family: Breakers;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+
+  padding-top: 8px;
+}
+
+.timeslot {
+  background: linear-gradient(
+    90deg,
+    #00ce7c 0.04%,
+    #5cc3b0 31.81%,
+    #00a1de 71.9%,
+    #005971 100.02%
+  );
+  padding: 1px;
+  text-align: center;
+  font-family: Breakers;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.timeslot_filled {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 206, 124, 0.25) 0.04%,
+    rgba(92, 195, 176, 0.25) 31.81%,
+    rgba(0, 161, 222, 0.25) 71.9%,
+    rgba(0, 89, 113, 0.25) 100.02%
+  );
+  text-align: center;
+}
+
+.timeslot > div {
+  background: black;
+  height: 100%;
+}
+
+.program-item-full-width {
+  background: linear-gradient(
+    90deg,
+    #00ce7c 100%,
+    #5cc3b0 100%,
+    #00a1de 100%,
+    #005971 100%
+  );
+  padding: 1px;
+}
+
+.program-item-full-width > div {
+  background: black;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.program-item-full-width > div > span {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Breakers;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.program-item {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 206, 124, 0.25) 0.04%,
+    rgba(92, 195, 176, 0.25) 31.81%,
+    rgba(0, 161, 222, 0.25) 71.9%,
+    rgba(0, 89, 113, 0.25) 100.02%
+  );
+  text-align: center;
+  font-family: Breakers;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.program-item > div {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.program-item > div > span {
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 22px;
+}
+
+.small {
+  font-size: 12px;
+}
