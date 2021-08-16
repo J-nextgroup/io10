@@ -1,0 +1,61 @@
+.spreker_box{
+  background-color: white;
+}
+
+.talk_id {
+  background-color: azure;
+}
+
+.talk_titel {
+  background-color: green;
+}
+.talk_afbeelding_box {
+  background-color: blue;
+  position: absolute;
+  width: 285px;
+  height: 285px;
+  // left: 0px;
+  // top: 0px;
+}
+
+.talk_afbeelding {
+  // background-color: yellow;
+  width: 250px;
+  height: 250px;
+  left: 17px;
+  top: 18px;
+  // padding:17px;
+}
+
+.talk_inhoudelijk_tekst {
+
+}
+.talk_spreker {
+  background-color: red;
+  clear:both;
+}
+.talk_spreker_id {
+  background-color: purple;
+
+}
+.talk_spreker_naam {
+  background-color: magenta;
+
+}
+.talk_spreker_company {
+
+  background-color: olive;
+
+}
+.talk_spreker_afbeelding_box {
+  background-color: olivedrab;
+
+}
+.talk_spreker_afbeelding {
+  background-color: lightsalmon;
+  position: absolute;
+  // max-width: 100px;
+  height: 100px;
+  left: 92px;
+  top: 231px;
+}

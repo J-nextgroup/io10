@@ -1,0 +1,32 @@
+<!-- <img class="talk_afbeelding" src="./assets/talk-images/{{talk.afbeelding}}" /> -->
+<div class="row talk_afbeelding_box">
+  <div class="col">
+    <img class=" talk_afbeelding" [ngStyle]="{backgroundImage:'url(./assets/talk-images/' + talk.afbeelding + ')'}" />
+    <img class="talk_spreker_afbeelding" src="./assets/spreker-images/{{talk.spreker.afbeelding}}" />
+  </div>
+</div>
+
+
+<div class="row talk_spreker">
+  <div class="col">
+    <div class="talk_spreker_naam">{{talk.spreker.naam}}</div> -
+    <div class="talk_spreker_company">{{talk.spreker.company}}</div>
+  </div>
+</div>
+
+
+<div class="row talk_titel">
+  <div class="col">{{talk.titel}}
+  </div>
+</div>
+
+<div class="row meer_info">
+  <div class="col">meer info
+  </div>
+</div>
+
+<!-- <div class="talk_inhoudelijk_tekst">{{talk.inhoudelijk_tekst}}</div> -->
+<!-- <div class="talk_spreker_id">{{talk.spreker.id}}</div> -->
+<!-- <div class="talk_spreker_afbeelding_box"
+  [ngStyle]="{backgroundImage:'url(./assets/spreker-images/{{talk.spreker.afbeelding}})'}">
+</div> -->
