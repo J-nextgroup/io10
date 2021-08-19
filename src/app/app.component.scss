@@ -1,4 +1,81 @@
-.col-visual {
-  background-color: purple;
-  text-align: center;
+@function gradient($opacity: 1) {
+  @return linear-gradient(
+    90deg,
+    rgba(0, 206, 124, $opacity) 0.04%,
+    rgba(92, 195, 176, $opacity) 31.81%,
+    rgb(0, 161, 222, $opacity) 71.9%,
+    rgb(0, 89, 113, $opacity) 100.02%
+  );
+}
+
+#keynote,
+#intro,
+#sprekers {
+  p {
+    font-size: 1.375em;
+    line-height: 1.5em;
+  }
+}
+
+#intro,
+#sprekers {
+  h2 {
+    font-size: 3.125em;
+    line-height: 1em;
+  }
+}
+
+#keynote {
+  h2 {
+    font-size: 2.5em;
+    line-height: 1em;
+  }
+  button {
+    border-radius: 5em;
+  }
+}
+
+#intro {
+  h2 {
+    text-transform: lowercase;
+    background: gradient();
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+#timetable {
+  h2 {
+    text-align: center;
+    font-size: 3.125em;
+  }
+
+  table {
+    border-spacing: 10px;
+    border-collapse: separate;
+    font-size: 1.0625em;
+    text-align: center;
+    th {
+      font-weight: normal;
+      width: 80px;
+    }
+    th + th {
+      background: gradient();
+      width: 200px;
+    }
+
+    .bordered {
+      border: 1px solid;
+      border-image-slice: 1;
+      border-image-source: gradient();
+    }
+
+    .with-bg {
+      background: gradient(0.25);
+    }
+
+    .with-bg-faded {
+      background: gradient(0.1);
+    }
+  }
 }
