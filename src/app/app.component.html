@@ -1,243 +1,283 @@
-<nav
-  class="navbar navbar-expand-lg navbar-dark"
-  style="background-color: transparent"
->
-  <a class="navbar-brand" href="/"
-    ><img src="/assets/logo.png" class="img-fluid" style="max-width: 108px"
-  /></a>
-  <button
-    class="navbar-toggler"
-    type="button"
-    data-toggle="collapse"
-    data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-    style="border: none"
-  >
-    <img src="/assets/menu.svg" />
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">io/10</a>
-        <a class="nav-link" href="#">thema's/sprekers</a>
-        <a class="nav-link" href="#">timetable</a>
-        <a class="nav-link" href="#">catering</a>
-        <a class="nav-link" href="#">parkeren</a>
-      </li>
-    </ul>
-  </div>
-</nav>
 <div class="container-xl">
   <div class="row">
-    <div class="col">
-      <h2>Key note speaker Jarno Duursma neemt ons mee in zijn wereld</h2>
-      <p>
-        Jarno is een Nederlandse technologie-expert, publicist, trendwatcher en
-        spreker op het gebied van digitale technologie.
-      </p>
-      <button type="button" class="btn btn-outline-light">save the date</button>
-      <img src="/assets/jarno.jpg" class="img-fluid" />
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <h2>IO10: where human meets technology</h2>
+    <div class="col-1 d-xl-none"></div>
+    <div class="col-10 col-xl-12">
+      <div class="row">
+        <div class="col">
+          <nav
+            class="navbar navbar-expand-lg navbar-dark"
+            style="background-color: transparent; padding: 0"
+          >
+            <a class="navbar-brand" href="/"
+              ><img
+                src="/assets/logo.png"
+                class="img-fluid"
+                style="max-width: 108px"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              style="border: none"
+            >
+              <img src="/assets/menu.svg" />
+            </button>
 
-      <p>
-        Weinig sectoren zijn zo dynamisch en veranderlijk als IT. Veel
-        organisaties zetten hun transformatiemotor in turboversnelling. Wat
-        betekent dit voor de toekomst?
-      </p>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">io/10</a>
+                  <a class="nav-link" href="#">thema's/sprekers</a>
+                  <a class="nav-link" href="#">timetable</a>
+                  <a class="nav-link" href="#">catering</a>
+                  <a class="nav-link" href="#">parkeren</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-5">
+          <h2>Key note speaker Jarno Duursma neemt ons mee in zijn wereld</h2>
+          <p>
+            Jarno is een Nederlandse technologie-expert, publicist, trendwatcher
+            en spreker op het gebied van digitale technologie.
+          </p>
+          <button type="button" class="btn btn-outline-light">
+            save the date
+          </button>
+        </div>
+        <div class="col-12 col-lg-7">
+          <img src="/assets/jarno.jpg" class="img-fluid" />
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-10">
+          <h2>IO10: where human meets technology</h2>
 
-      <p>
-        EportaConsult, Digital Marketing Partner, UX Partner en J-Next slaan hun
-        handen ineen. Zij organiseren IO10, een bijeenkomst met interactieve
-        break out sessies op het gebied van softwareontwikkeling, Design
-        Thinking en Next Level Content Marketing.
-      </p>
-      <p>
-        Ben jij erbij, op de donderdagmiddag 14 oktober? Meld je aan en neem
-        gerust een introducee mee!
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <h2>sprekers</h2>
-      <p>Dit zijn de skills waar je uit kunt kiezen:</p>
-      <app-speaker
-        [picture]="'/assets/speaker-bg.jfif'"
-        [portrait]="'/assets/gerald.jpg'"
-        [title]="'Gerald Hemmers - ICTU'"
-        [subject]="'Lead UX Designer over gebruikerstesten'"
-      ></app-speaker>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <h2>timetable</h2>
-      <div style="overflow-x: auto">
-        <table style="width: 924px">
-          <thead>
-            <tr>
-              <th></th>
-              <th>rio</th>
-              <th>vancouver</th>
-              <th>peking</th>
-              <th>atlanta</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>15:00</td>
-              <td colspan="4" rowspan="2">Inloop</td>
-            </tr>
-            <tr>
-              <td>15:15</td>
-            </tr>
-            <tr>
-              <td>15:30</td>
-              <td>Welkom door John</td>
-              <td colspan="3"></td>
-            </tr>
-            <tr>
-              <td>15:45</td>
-              <td rowspan="4">Keynote:<br />Jarno Duursma</td>
-              <td rowspan="4" colspan="3"></td>
-            </tr>
-            <tr>
-              <td>16:00</td>
-            </tr>
-            <tr>
-              <td>16:15</td>
-            </tr>
-            <tr>
-              <td>16:30</td>
-            </tr>
-            <tr>
-              <td>16:45</td>
-              <td rowspan="3">
-                Breakout sessie 1:<br />Jasper Roel<br />(programmeren in de
-                cloud)
-              </td>
-              <td rowspan="3"></td>
-              <td rowspan="3"></td>
-              <td rowspan="3"></td>
-            </tr>
-            <tr>
-              <td>17:00</td>
-            </tr>
-            <tr>
-              <td>17:15</td>
-            </tr>
-            <tr>
-              <td>17:30</td>
-              <td rowspan="2" colspan="4">Voorgerecht</td>
-            </tr>
-            <tr>
-              <td>17:45</td>
-            </tr>
-            <tr>
-              <td>18:00</td>
-              <td rowspan="3">
-                Breakout sessie 1:<br />Jasper Roel<br />(programmeren in de
-                cloud)
-              </td>
-              <td rowspan="3"></td>
-              <td rowspan="3"></td>
-              <td rowspan="3"></td>
-            </tr>
-            <tr>
-              <td>18:15</td>
-            </tr>
-            <tr>
-              <td>18:30</td>
-            </tr>
-            <tr>
-              <td>18:45</td>
-              <td rowspan="3" colspan="4">Hoofdgerecht</td>
-            </tr>
-            <tr>
-              <td>19:00</td>
-            </tr>
-            <tr>
-              <td>19:15</td>
-            </tr>
-            <tr>
-              <td>19:30</td>
-              <td rowspan="2">Centrale afsluiting</td>
-              <td rowspan="2" colspan="3"></td>
-            </tr>
-            <tr>
-              <td>19:45</td>
-            </tr>
-            <tr>
-              <td>20:00</td>
-              <td rowspan="3" colspan="4">Borrel Piccalilly</td>
-            </tr>
-            <tr>
-              <td>20:15</td>
-            </tr>
-            <tr>
-              <td>20:30</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <img src="/assets/picabg.jfif" class="img-fluid" />
-      <img src="/assets/picalilly.svg" class="img-fluid" />
-      <h2>Ontdek de wereld van Piccalilly</h2>
-      <p>
-        Het eten wordt verzorgd door familiebedrijf Piccalilly Catering. Heb je
-        speciale dieetwensen? Geef dit door aan de Office Manager van jouw
-        bedrijf.
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <img src="/assets/thnlobby.jpg" class="img-fluid" />
-      <h2>Parkeren bij The Human Network</h2>
-      <div class="row">
-        <div class="col-1"><img src="/assets/home.svg" /></div>
-        <div class="col-11">Orteliuslaan 855 • Utrecht</div>
+          <p>
+            Weinig sectoren zijn zo dynamisch en veranderlijk als IT. Veel
+            organisaties zetten hun transformatiemotor in turboversnelling. Wat
+            betekent dit voor de toekomst?
+          </p>
+
+          <p>
+            EportaConsult, Digital Marketing Partner, UX Partner en J-Next slaan
+            hun handen ineen. Zij organiseren IO10, een bijeenkomst met
+            interactieve break out sessies op het gebied van
+            softwareontwikkeling, Design Thinking en Next Level Content
+            Marketing.
+          </p>
+          <p>
+            Ben jij erbij, op de donderdagmiddag 14 oktober? Meld je aan en neem
+            gerust een introducee mee!
+          </p>
+        </div>
       </div>
       <div class="row">
-        <div class="col-1"><img src="/assets/phone.svg" /></div>
-        <div class="col-11">030 890 5400</div>
+        <div class="col">
+          <h2>sprekers</h2>
+          <p>Dit zijn de skills waar je uit kunt kiezen:</p>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+              <app-speaker
+                [picture]="'/assets/speaker-bg.jfif'"
+                [portrait]="'/assets/gerald.jpg'"
+                [title]="'Gerald Hemmers - ICTU'"
+                [subject]="'Lead UX Designer over gebruikerstesten'"
+              ></app-speaker>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <app-speaker
+                [picture]="'/assets/speaker-bg.jfif'"
+                [portrait]="'/assets/gerald.jpg'"
+                [title]="'Gerald Hemmers - ICTU'"
+                [subject]="'Lead UX Designer over gebruikerstesten'"
+              ></app-speaker>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-8">
+          <h2>timetable</h2>
+          <div style="overflow-x: auto">
+            <table style="width: 924px">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>rio</th>
+                  <th>vancouver</th>
+                  <th>peking</th>
+                  <th>atlanta</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>15:00</td>
+                  <td colspan="4" rowspan="2">Inloop</td>
+                </tr>
+                <tr>
+                  <td>15:15</td>
+                </tr>
+                <tr>
+                  <td>15:30</td>
+                  <td>Welkom door John</td>
+                  <td colspan="3"></td>
+                </tr>
+                <tr>
+                  <td>15:45</td>
+                  <td rowspan="4">Keynote:<br />Jarno Duursma</td>
+                  <td rowspan="4" colspan="3"></td>
+                </tr>
+                <tr>
+                  <td>16:00</td>
+                </tr>
+                <tr>
+                  <td>16:15</td>
+                </tr>
+                <tr>
+                  <td>16:30</td>
+                </tr>
+                <tr>
+                  <td>16:45</td>
+                  <td rowspan="3">
+                    Breakout sessie 1:<br />Jasper Roel<br />(programmeren in de
+                    cloud)
+                  </td>
+                  <td rowspan="3"></td>
+                  <td rowspan="3"></td>
+                  <td rowspan="3"></td>
+                </tr>
+                <tr>
+                  <td>17:00</td>
+                </tr>
+                <tr>
+                  <td>17:15</td>
+                </tr>
+                <tr>
+                  <td>17:30</td>
+                  <td rowspan="2" colspan="4">Voorgerecht</td>
+                </tr>
+                <tr>
+                  <td>17:45</td>
+                </tr>
+                <tr>
+                  <td>18:00</td>
+                  <td rowspan="3">
+                    Breakout sessie 1:<br />Jasper Roel<br />(programmeren in de
+                    cloud)
+                  </td>
+                  <td rowspan="3"></td>
+                  <td rowspan="3"></td>
+                  <td rowspan="3"></td>
+                </tr>
+                <tr>
+                  <td>18:15</td>
+                </tr>
+                <tr>
+                  <td>18:30</td>
+                </tr>
+                <tr>
+                  <td>18:45</td>
+                  <td rowspan="3" colspan="4">Hoofdgerecht</td>
+                </tr>
+                <tr>
+                  <td>19:00</td>
+                </tr>
+                <tr>
+                  <td>19:15</td>
+                </tr>
+                <tr>
+                  <td>19:30</td>
+                  <td rowspan="2">Centrale afsluiting</td>
+                  <td rowspan="2" colspan="3"></td>
+                </tr>
+                <tr>
+                  <td>19:45</td>
+                </tr>
+                <tr>
+                  <td>20:00</td>
+                  <td rowspan="3" colspan="4">Borrel Piccalilly</td>
+                </tr>
+                <tr>
+                  <td>20:15</td>
+                </tr>
+                <tr>
+                  <td>20:30</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
       <div class="row">
-        <div class="col-1"><img src="/assets/mail.svg" /></div>
-        <div class="col-11">contact@io10.nl</div>
+        <div class="col">
+          <img src="/assets/picabg.jfif" class="img-fluid" />
+          <img src="/assets/picalilly.svg" class="img-fluid" />
+          <h2>Ontdek de wereld van Piccalilly</h2>
+          <p>
+            Het eten wordt verzorgd door familiebedrijf Piccalilly Catering. Heb
+            je speciale dieetwensen? Geef dit door aan de Office Manager van
+            jouw bedrijf.
+          </p>
+        </div>
       </div>
-      <p>
-        O10 wordt georganiseerd in het pand van The Human Network, op de
-        Orteliuslaan 855 in Utrecht.
-      </p>
-      <p>
-        Dit is makkelijk bereikbaar via het openbaar vervoer. Kom je met de
-        auto? Parkeer dan bij de nabijgelegen P&R. Er zijn uitrijkaarten
-        beschikbaar!
-      </p>
-      <button type="button" class="btn btn-outline-light">plan route</button>
+      <div class="row justify-content-between">
+        <div class="col-12 col-lg-6">
+          <img src="/assets/thnlobby.jpg" class="img-fluid" />
+        </div>
+        <div class="col-12 col-lg-5">
+          <h2>Parkeren bij The Human Network</h2>
+          <div class="row">
+            <div class="col-1"><img src="/assets/home.svg" /></div>
+            <div class="col-11">Orteliuslaan 855 • Utrecht</div>
+          </div>
+          <div class="row">
+            <div class="col-1"><img src="/assets/phone.svg" /></div>
+            <div class="col-11">030 890 5400</div>
+          </div>
+          <div class="row">
+            <div class="col-1"><img src="/assets/mail.svg" /></div>
+            <div class="col-11">contact@io10.nl</div>
+          </div>
+          <p>
+            IO10 wordt georganiseerd in het pand van The Human Network, op de
+            Orteliuslaan 855 in Utrecht.
+          </p>
+          <p>
+            Dit is makkelijk bereikbaar via het openbaar vervoer. Kom je met de
+            auto? Parkeer dan bij de nabijgelegen P&R. Er zijn uitrijkaarten
+            beschikbaar!
+          </p>
+          <button type="button" class="btn btn-outline-light">
+            plan route
+          </button>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-2">
+          <img src="/assets/uxpartner.svg" class="img-fluid" />
+        </div>
+        <div class="col-12 col-lg-2">
+          <img src="/assets/jnext.svg" class="img-fluid" />
+        </div>
+        <div class="col-12 col-lg-2">
+          <img src="/assets/dmp.svg" class="img-fluid" />
+        </div>
+        <div class="col-12 col-lg-2">
+          <img src="/assets/eporta.svg" class="img-fluid" />
+        </div>
+        <div class="col-12 col-lg-2">
+          <img src="/assets/thn.svg" class="img-fluid" />
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <ul>
-        <li><img src="/assets/uxpartner.svg" class="img-fluid" /></li>
-        <li><img src="/assets/jnext.svg" class="img-fluid" /></li>
-        <li><img src="/assets/dmp.svg" class="img-fluid" /></li>
-        <li><img src="/assets/eporta.svg" class="img-fluid" /></li>
-        <li><img src="/assets/thn.svg" class="img-fluid" /></li>
-      </ul>
-    </div>
+    <div class="col-1 d-xl-none"></div>
   </div>
 </div>
