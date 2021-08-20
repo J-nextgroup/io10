@@ -1,3 +1,7 @@
+$container-max-widths: (
+  xl: 1662px,
+);
+@import '~bootstrap/scss/bootstrap';
 @function gradient($opacity: 1) {
   @return linear-gradient(
     90deg,
@@ -8,39 +12,44 @@
   );
 }
 
-#keynote,
-#intro,
-#sprekers {
+#keynote {
+  h2 {
+    font-size: 2.5em;
+    line-height: 1em;
+  }
+  p {
+    font-size: 1.375em;
+    line-height: 1.5em;
+  }
+  button {
+    border-radius: 5em;
+    font-size: 20px;
+  }
+}
+
+#intro {
+  h2 {
+    font-size: 3.125em;
+    line-height: 1em;
+    text-transform: lowercase;
+    background: gradient();
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   p {
     font-size: 1.375em;
     line-height: 1.5em;
   }
 }
 
-#intro,
 #sprekers {
   h2 {
     font-size: 3.125em;
     line-height: 1em;
   }
-}
-
-#keynote {
-  h2 {
-    font-size: 2.5em;
-    line-height: 1em;
-  }
-  button {
-    border-radius: 5em;
-  }
-}
-
-#intro {
-  h2 {
-    text-transform: lowercase;
-    background: gradient();
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  p {
+    font-size: 1.375em;
+    line-height: 1.5em;
   }
 }
 
@@ -76,6 +85,119 @@
 
     .with-bg-faded {
       background: gradient(0.1);
+    }
+  }
+}
+
+#piccalilly {
+  h2 {
+    font-size: 3.125em;
+    line-height: 1em;
+  }
+  p {
+    font-size: 1.375em;
+    line-height: 1.25em;
+  }
+  background-color: white;
+}
+
+#parking {
+  h2 {
+    font-size: 3.125em;
+    line-height: 1em;
+  }
+  p {
+    font-size: 1.375em;
+    line-height: 1.25em;
+  }
+  button {
+    border-radius: 5em;
+    font-size: 20px;
+  }
+  .contactinfo {
+    font-size: 1.875em;
+    line-height: 1em;
+  }
+}
+
+#logos {
+  background-color: white;
+}
+
+.navbar-logo {
+  max-width: 167px;
+}
+
+@include media-breakpoint-up(md) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+  }
+
+  .navbar-logo {
+    max-width: 245px;
+  }
+
+  #keynote {
+    h2 {
+      font-size: 70px;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .navbar {
+    justify-content: space-between;
+    .navbar-collapse {
+      flex: 0 1 auto;
+      ul.navbar-nav {
+        font-size: 22px;
+        line-height: 27.5px;
+        font-weight: bold;
+        li {
+          a {
+            color: white;
+            border-bottom: solid 2px transparent;
+            &:hover {
+              border-bottom: 2px solid;
+              border-image-slice: 1;
+              border-image-source: linear-gradient(
+                90deg,
+                #00ce7c 0.04%,
+                #5cc3b0 31.81%,
+                #00a1de 71.9%,
+                #005971 100.02%
+              );
+            }
+          }
+        }
+        li + li {
+          margin-left: 40px;
+        }
+      }
+    }
+  }
+
+  #intro,
+  #sprekers,
+  #timetable,
+  #piccalilly,
+  #parking {
+    margin-top: 150px !important;
+  }
+
+  #piccalilly {
+    .ontdek {
+      position: absolute;
+      background-color: white;
+      bottom: 0;
+      left: 10%;
+      right: 60%;
+      padding-top: 40px;
     }
   }
 }

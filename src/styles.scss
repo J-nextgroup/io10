@@ -42,9 +42,9 @@ html {
   background-image: repeating-linear-gradient(
     to right,
     transparent 0px,
-    transparent 149px,
-    #2c2c2c 150px,
-    #2c2c2c 151px
+    transparent 9vw,
+    #2c2c2c calc(9vw + 1px),
+    #2c2c2c calc(9vw + 2px)
   );
 }
 
