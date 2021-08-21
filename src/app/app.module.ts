@@ -3,11 +3,11 @@ import { BrowserModule } from '@angular/platform-browser'
 
 import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { SpeakerComponent } from './speaker/speaker.component'
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
+import { Speaker1Component } from './speaker/speaker-1.component'
 
 @NgModule({
-  declarations: [AppComponent, SpeakerComponent],
+  declarations: [AppComponent, Speaker1Component],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent],

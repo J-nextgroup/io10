@@ -4,6 +4,16 @@
   <div class="card-body">
     <h5 class="card-title">{{ title }}</h5>
     <p class="card-text">{{ subject }}</p>
-    <a href="#" class="btn btn-link">meer info</a>
+    <button type="button" class="btn btn-link" (click)="openModal(content)">
+      meer info
+    </button>
   </div>
 </div>
+
+<ng-template #content let-modal>
+  <div class="modal-body">
+    <div class="container-fluid">
+      <p>test</p>
+    </div>
+  </div>
+</ng-template>
