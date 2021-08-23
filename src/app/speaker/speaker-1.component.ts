@@ -7,8 +7,8 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap'
   styleUrls: ['./speaker.component.scss'],
 })
 export class Speaker1Component {
-  picture = '/assets/speaker-bg.jfif'
-  portrait = '/assets/gerald.jpg'
+  picture = 'assets/speaker-bg.jfif'
+  portrait = 'assets/gerald.jpg'
   title = 'Gerald Hemmers - ICTU'
   subject = 'Lead UX Designer over gebruikerstesten'
 
