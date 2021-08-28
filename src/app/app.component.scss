@@ -21,7 +21,7 @@ $container-max-widths: (
     font-size: 1.375em;
     line-height: 1.5em;
   }
-  button {
+  a {
     border-radius: 5em;
     font-size: 20px;
   }
@@ -110,9 +110,15 @@ $container-max-widths: (
     font-size: 1.375em;
     line-height: 1.25em;
   }
-  button {
-    border-radius: 5em;
-    font-size: 20px;
+  a {
+    &.btn {
+      border-radius: 5em;
+      font-size: 20px;
+    }
+    &.row {
+      text-decoration: none;
+      color: inherit;
+    }
   }
   .contactinfo {
     font-size: 1.875em;
