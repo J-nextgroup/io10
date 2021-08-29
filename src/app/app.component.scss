@@ -2,15 +2,7 @@ $container-max-widths: (
   xl: 1662px,
 );
 @import '~bootstrap/scss/bootstrap';
-@function gradient($opacity: 1) {
-  @return linear-gradient(
-    90deg,
-    rgba(0, 206, 124, $opacity) 0.04%,
-    rgba(92, 195, 176, $opacity) 31.81%,
-    rgba(0, 161, 222, $opacity) 71.9%,
-    rgba(0, 89, 113, $opacity) 100.02%
-  );
-}
+@import '../functions.scss';
 
 #keynote {
   h2 {
