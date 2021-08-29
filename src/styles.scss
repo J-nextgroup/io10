@@ -1,8 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
-
-$container-max-widths: (
-  xl: 1662px,
-);
+@import 'variables';
+@import '~bootstrap/scss/bootstrap';
 
 @font-face {
   font-family: 'Breakers';
@@ -31,9 +28,6 @@ $container-max-widths: (
   font-style: normal;
   font-display: swap;
 }
-
-/* Importing Bootstrap SCSS file. */
-@import '~bootstrap/scss/bootstrap';
 
 html {
   height: 100%;

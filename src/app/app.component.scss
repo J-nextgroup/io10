@@ -1,8 +1,6 @@
-$container-max-widths: (
-  xl: 1662px,
-);
+@import '../functions';
+@import '../variables';
 @import '~bootstrap/scss/bootstrap';
-@import '../functions.scss';
 
 #keynote {
   h2 {
