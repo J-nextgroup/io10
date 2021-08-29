@@ -11,9 +11,27 @@
 </div>
 
 <ng-template #content let-modal>
+  <img [src]="picture" [alt]="subject" class="img-top" />
   <div class="modal-body">
     <div class="container-fluid">
-      <p>test</p>
+      <div class="row">
+        <div class="col-6">
+          <div class="location">{{ location }}</div>
+        </div>
+        <div class="col-6 text-center">
+          <img [src]="portrait" [alt]="title" class="img-fluid portrait" />
+          <div class="title">{{ title }}</div>
+        </div>
+        <div class="col-12 col-subject">
+          <div class="modalborder mt-3"></div>
+          <div class="subject mt-3">{{ subject }}</div>
+          <div class="time mt-3">{{ time }}</div>
+        </div>
+        <div class="col-12 col-description">
+          <div class="modalborder mt-3"></div>
+          <div class="description mt-3">{{ description }}</div>
+        </div>
+      </div>
     </div>
   </div>
 </ng-template>
