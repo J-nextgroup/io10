@@ -46,6 +46,10 @@ body {
   background-color: transparent;
   color: inherit;
   font-family: 'Breakers';
+
+  &.modal-open .root-container {
+    filter: blur(4px);
+  }
 }
 
 h1,

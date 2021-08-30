@@ -9,13 +9,7 @@
   border: 10px solid;
   border-image-slice: 1;
   border-width: 1px;
-  border-image-source: linear-gradient(
-    90deg,
-    #00ce7c 0.04%,
-    #5cc3b0 31.81%,
-    #00a1de 71.9%,
-    #005971 100.02%
-  );
+  border-image-source: gradient();
 }
 
 .card-title {
@@ -39,13 +33,7 @@
     border-right: none;
     border-bottom: 2px solid;
     border-image-slice: 1;
-    border-image-source: linear-gradient(
-      90deg,
-      #00ce7c 0.04%,
-      #5cc3b0 31.81%,
-      #00a1de 71.9%,
-      #005971 100.02%
-    );
+    border-image-source: gradient();
   }
 }
 
