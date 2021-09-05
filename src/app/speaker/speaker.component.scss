@@ -10,6 +10,7 @@
   border-image-slice: 1;
   border-width: 1px;
   border-image-source: gradient();
+  object-fit: cover;
 }
 
 .card-title {
@@ -44,6 +45,7 @@
   margin: 0 auto;
   margin-top: -50px;
   object-fit: cover;
+  background-color: black;
 }
 
 .img-top {
