@@ -12,6 +12,7 @@ import { SpeakerJochemComponent } from './speaker/speaker-jochem.component'
 import { SpeakerRoelComponent } from './speaker/speaker-roel.component'
 import { SpeakerTimComponent } from './speaker/speaker-tim.component'
 import { SpeakerSwaanaComponent } from './speaker/speaker-swaana.component'
+import { FormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -25,7 +26,7 @@ import { SpeakerSwaanaComponent } from './speaker/speaker-swaana.component'
     SpeakerTimComponent,
     SpeakerSwaanaComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, NgbModule],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -136,6 +136,18 @@
   background-color: white;
 }
 
+#aanmelden {
+  padding: 100px 0;
+  background: gradient();
+
+  .form-control {
+    border-radius: 50px;
+  }
+  button {
+    border-radius: 5em;
+  }
+}
+
 .navbar-logo {
   max-width: 167px;
 }
@@ -210,7 +222,8 @@
   #sprekers,
   #timetable,
   #piccalilly,
-  #parking {
+  #parking,
+  #aanmelden {
     margin-top: 150px !important;
   }
 

@@ -6,6 +6,22 @@ import { Component } from '@angular/core'
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
+  signup = {
+    name: '',
+    email: '',
+    linkedin: '',
+  }
+
+  onSubmit() {
+    window.open(
+      `mailto:io10@thehumannetwork.nl?subject=${encodeURIComponent(
+        'Aanmelding voor IO/10 event'
+      )}&body=${encodeURIComponent(
+        `Naam: ${this.signup.name}\nE-mail:${this.signup.email}\nLinkedIn:${this.signup.linkedin}`
+      )}`
+    )
+  }
+
   scroll(event: MouseEvent, selector: string) {
     event.preventDefault()
     document.querySelector(selector)?.scrollIntoView({ behavior: 'smooth' })
