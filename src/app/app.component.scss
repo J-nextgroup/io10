@@ -78,6 +78,10 @@
     .with-bg-faded {
       background: gradient(0.1);
     }
+
+    small {
+      display: block;
+    }
   }
 }
 
@@ -130,6 +134,18 @@
 
 #logos {
   background-color: white;
+}
+
+#aanmelden {
+  padding: 100px 0;
+  background: gradient();
+
+  .form-control {
+    border-radius: 50px;
+  }
+  button {
+    border-radius: 5em;
+  }
 }
 
 .navbar-logo {
@@ -206,7 +222,8 @@
   #sprekers,
   #timetable,
   #piccalilly,
-  #parking {
+  #parking,
+  #aanmelden {
     margin-top: 150px !important;
   }
 

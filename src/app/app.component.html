@@ -38,7 +38,7 @@
                     class="nav-link"
                     href="#sprekers"
                     (click)="scroll($event, '#sprekers')"
-                    >thema's/sprekers</a
+                    >thema's</a
                   >
                 </li>
                 <li>
@@ -60,6 +60,14 @@
                 <li class="nav-item">
                   <a
                     class="nav-link"
+                    href="#aanmelden"
+                    (click)="scroll($event, '#aanmelden')"
+                    >aanmelden</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
                     href="#parking"
                     (click)="scroll($event, '#parking')"
                     >parkeren</a
@@ -72,7 +80,7 @@
       </div>
       <!-- keynote -->
       <div class="row pt-5" id="keynote">
-        <div class="col-12 col-lg-5 align-self-center">
+        <div class="col-12 col-xl-5 align-self-center">
           <div class="row">
             <div class="col-lg-1"></div>
             <div class="col-lg-10">
@@ -90,8 +98,32 @@
             <div class="col-lg-1"></div>
           </div>
         </div>
-        <div class="col-12 col-lg-7 mt-3 mt-lg-0">
-          <img src="assets/jarno.jpg" class="img-fluid" />
+        <div class="col-12 col-xl-7 mt-3 mt-xl-0">
+          <style>
+            .embed-container {
+              position: relative;
+              padding-bottom: 56.25%;
+              height: 0;
+              overflow: hidden;
+              max-width: 100%;
+            }
+            .embed-container iframe,
+            .embed-container object,
+            .embed-container embed {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            }
+          </style>
+          <div class="embed-container">
+            <iframe
+              src="https://www.youtube.com/embed/UgeZURYbC3o"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
       <!-- intro text -->
@@ -114,31 +146,31 @@
       <div class="row text-center pt-5" id="sprekers">
         <div class="col">
           <h2>sprekers</h2>
-          <p>Dit zijn de skills waar je uit kunt kiezen:</p>
+          <p>Dit zijn de sessies waar je uit kunt kiezen:</p>
           <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
-              <app-speaker-1></app-speaker-1>
+            <div class="col-12 col-md-6 col-xl-3">
+              <app-speaker-dennis></app-speaker-dennis>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <app-speaker-1></app-speaker-1>
+            <div class="col-12 col-md-6 col-xl-3">
+              <app-speaker-miranda></app-speaker-miranda>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <app-speaker-1></app-speaker-1>
+            <div class="col-12 col-md-6 col-xl-3">
+              <app-speaker-swaana></app-speaker-swaana>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <app-speaker-1></app-speaker-1>
+            <div class="col-12 col-md-6 col-xl-3">
+              <app-speaker-roel></app-speaker-roel>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <app-speaker-1></app-speaker-1>
+            <div class="col-12 col-md-6 col-xl-3">
+              <app-speaker-dennis2></app-speaker-dennis2>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <app-speaker-1></app-speaker-1>
+            <div class="col-12 col-md-6 col-xl-3">
+              <app-speaker-tim></app-speaker-tim>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <app-speaker-1></app-speaker-1>
+            <div class="col-12 col-md-6 col-xl-3">
+              <app-speaker-israel></app-speaker-israel>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <app-speaker-1></app-speaker-1>
+            <div class="col-12 col-md-6 col-xl-3">
+              <app-speaker-jochem></app-speaker-jochem>
             </div>
           </div>
         </div>
@@ -178,40 +210,72 @@
                 <tr>
                   <td class="with-bg" style="height: 130px">16:45 - 17:15</td>
                   <td class="with-bg p-2">
-                    Breakout sessie 1:<br />Dennis van de Stelt<br />(hoe om te
-                    gaan met eventual consistency)
+                    Breakout sessie 1:<br />Dennis van de Stelt<small
+                      >Hoe om te gaan met eventual consistency.</small
+                    >
                   </td>
                   <td class="with-bg p-2">
-                    Breakout sessie 2:<br />Miranda Beugelsdijk/Mirthe van
-                    Gaalen<br />(Conversational Design)
+                    Breakout sessie 2:<br />Miranda Beugelsdijk / Mirthe van
+                    Gaalen<small>Conversational Design</small>
                   </td>
                   <td class="with-bg p-2">
-                    Breakout sessie 3:<br />Swaana Snorradottir
+                    Breakout sessie 3:<br />Swaana Snorradottir<small
+                      >The backend in the frontend</small
+                    >
                   </td>
                   <td class="with-bg p-2">
-                    Breakout sessie 4:<br />Jasper Roel<br />(DevOps: becoming
-                    the most valuable player "automation as a lifestyle")
+                    Breakout sessie 4:<br />Jasper Roel<small
+                      >DevOps: becoming the most valuable player "automation as
+                      a lifestyle"</small
+                    >
                   </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td class="with-bg-faded">Eporta / J-Next</td>
+                  <td class="with-bg-faded">DMP</td>
+                  <td class="with-bg-faded">Eporta / J-Next</td>
+                  <td class="with-bg-faded">Eporta / J-Next</td>
                 </tr>
                 <tr>
                   <td class="bordered" style="height: 60px">17:30 - 17:45</td>
-                  <td colspan="4" class="bordered">Voorgerecht</td>
+                  <td colspan="4" class="bordered">Ronde 1 DINER in Lobby</td>
                 </tr>
                 <tr>
                   <td class="with-bg" style="height: 130px">18:00 - 18:30</td>
-                  <td class="with-bg p-2">Breakout sessie 5</td>
-                  <td class="with-bg p-2">Breakout sessie 6</td>
-                  <td class="with-bg p-2">Breakout sessie 7</td>
-                  <td class="with-bg p-2">Breakout sessie 8</td>
+                  <td class="with-bg p-2">
+                    Breakout sessie 5:<br />Dennis van de Stelt<small
+                      >Microservices delen nooit data!</small
+                    >
+                  </td>
+                  <td class="with-bg p-2">
+                    Breakout sessie 6:<br />Tim de Roode<small
+                      >Versterking tussen design thinking en devops.</small
+                    >
+                  </td>
+                  <td class="with-bg p-2">
+                    Breakout sessie 7:<br />Israel Roldan Leon<small
+                      >Demistifying the modern front-end stack</small
+                    >
+                  </td>
+                  <td class="with-bg p-2">
+                    Breakout sessie 8:<br />Jasper Jochem<small
+                      >AR/VR Defensie</small
+                    >
+                  </td>
                 </tr>
                 <tr>
-                  <td class="bordered" style="height: 60px">18:45 - 19:15</td>
-                  <td colspan="4" class="bordered">Hoofdgerecht</td>
+                  <td></td>
+                  <td class="with-bg-faded">Eporta / J-Next</td>
+                  <td class="with-bg-faded">Alle</td>
+                  <td class="with-bg-faded">Eporta / J-Next</td>
+                  <td class="with-bg-faded">Alle</td>
                 </tr>
                 <tr>
-                  <td class="with-bg" style="height: 30px">19:30 - 19:45</td>
-                  <td class="with-bg">Centrale afsluiting</td>
-                  <td colspan="3" class="with-bg-faded"></td>
+                  <td class="bordered" style="height: 60px">19:30 - 19:45</td>
+                  <td colspan="4" class="bordered">
+                    Centrale afsluiting door John & Ronde 2 DINER in Lobby
+                  </td>
                 </tr>
                 <tr>
                   <td class="bordered" style="height: 60px">20:00 - 20:30</td>
@@ -241,6 +305,58 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="col-10">
+      <form (ngSubmit)="onSubmit()" #signupForm="ngForm">
+        <div class="row mt-5 justify-content-center" id="aanmelden">
+          <div class="col-12 text-center">
+            <h2>Ja, ik wil me aanmelden voor het io/10 event.</h2>
+          </div>
+          <div class="col-10 mt-3">
+            <div class="form-row">
+              <div class="col-md-4">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Naam"
+                  name="name"
+                  required
+                  [(ngModel)]="signup.name"
+                />
+              </div>
+              <div class="col-md-4 mt-3 mt-md-0">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="E-mail"
+                  name="email"
+                  required
+                  [(ngModel)]="signup.email"
+                />
+              </div>
+              <div class="col-md-4 mt-3 mt-md-0">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Linkedin url"
+                  name="linkedin"
+                  required
+                  [(ngModel)]="signup.linkedin"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-10 text-right mt-3">
+            <button
+              type="submit"
+              class="btn btn-outline-light p-2 px-4"
+              [disabled]="!signupForm.form.valid"
+            >
+              Aanmelden
+            </button>
+          </div>
+        </div>
+      </form>
     </div>
     <div class="col-10 col-xl-12">
       <!-- parking -->

@@ -10,6 +10,7 @@
   border-image-slice: 1;
   border-width: 1px;
   border-image-source: gradient();
+  object-fit: cover;
 }
 
 .card-title {
@@ -44,6 +45,7 @@
   margin: 0 auto;
   margin-top: -50px;
   object-fit: cover;
+  background-color: black;
 }
 
 .img-top {
@@ -78,6 +80,9 @@
   }
   .time {
     font-size: 12px;
+    img {
+      margin-right: 5px;
+    }
   }
   .description {
     font-size: 12px;
@@ -87,5 +92,30 @@
     width: 100%;
     height: 1px;
     background: gradient();
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .img-top {
+    height: 200px;
+  }
+  .modal-body {
+    .location {
+      font-size: 14px;
+    }
+    .title {
+      font-size: 14px;
+    }
+    .subject {
+      font-size: 36px;
+      line-height: 36px;
+    }
+    .time {
+      font-size: 18px;
+    }
+    .description {
+      font-size: 18px;
+      line-height: 20px;
+    }
   }
 }
