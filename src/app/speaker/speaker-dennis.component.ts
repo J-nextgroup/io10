@@ -12,7 +12,7 @@ export class SpeakerDennisComponent {
   title = 'Dennis van der Stelt - Software Architect'
   subject = 'Hoe om te gaan met eventual consistency'
   location = 'Rio'
-  time = '15:00 - 16:00'
+  time = '16:45 - 17:15'
   description =
     'Als developer en software architect willen we dat onze systemen performant en onderhoudbaar zijn. Veel van deze beslissingen zorgen voor eventual consistency, hoewel gebruikers onmiddellijke consistentie willen. Ze willen niet wachten op ‘eventual’ en hebben liever direct feedback van hun acties op het systeem. In deze sessie kijken we naar manieren, zowel in de gebruikersinterface als in de back-end, om direct feedback te geven aan eindgebruikers, ook al is de back-end nog niet volledig bijgewerkt, waardoor we ons systeem nog steedsbetrouwbaar en performant kunnen laten draaien.'
 

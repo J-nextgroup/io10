@@ -11,8 +11,8 @@ export class SpeakerMirandaComponent {
   portrait = 'assets/miranda.png'
   title = 'Miranda Beugelsdijk / Mirthe van Gaalen - Conversational Design'
   subject = 'We laten jullie zien hoe wij mens en techniek samenbrengen'
-  location = 'Rio'
-  time = '15:00 - 16:00'
+  location = 'Vancouver'
+  time = '16:45 - 17:15'
   description =
     'Heb jij je altijd al afgevraagd waarom een chatbot je niet begrijpt? In deze interactieve sessie nemen wij je mee in de wereld van de virtuele assistent. We laten jullie zien hoe wij mens en techniek samenbrengen om te zorgen dat de bot jou wel begrijpt. Na deze sessie ken jij de beginselen van conversation design.'
 

@@ -80,6 +80,9 @@
   }
   .time {
     font-size: 12px;
+    img {
+      margin-right: 5px;
+    }
   }
   .description {
     font-size: 12px;
@@ -98,10 +101,10 @@
   }
   .modal-body {
     .location {
-      font-size: 18px;
+      font-size: 14px;
     }
     .title {
-      font-size: 18px;
+      font-size: 14px;
     }
     .subject {
       font-size: 36px;

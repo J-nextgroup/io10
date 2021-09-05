@@ -11,8 +11,8 @@ export class SpeakerSwaanaComponent {
   portrait = 'assets/swaana.png'
   title = 'Swaana Snorradottir'
   subject = 'The backend in the frontend'
-  location = 'Rio'
-  time = '15:00 - 16:00'
+  location = 'Peking'
+  time = '16:45 - 17:15'
   description =
     'Door lagen aan elke applicatie toe te voegen, wordt deze modulair en schaalbaar. Maar wat gebeurt er als we backend-praktijken toevoegen aan de frontend?'
 

@@ -11,8 +11,8 @@ export class SpeakerJochemComponent {
   portrait = 'assets/jasper.png'
   title = 'Jasper Jochem – Hoofd RCC: RPA & IA bij Defensie'
   subject = 'VR/AR: de toekomst van mens machine interactie'
-  location = 'Rio'
-  time = '15:00 - 16:00'
+  location = 'Atlanta'
+  time = '18:00 - 18:30'
   description = '???'
 
   constructor(private modal: NgbModal) {}
