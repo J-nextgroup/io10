@@ -91,3 +91,28 @@
     background: gradient();
   }
 }
+
+@include media-breakpoint-up(md) {
+  .img-top {
+    height: 200px;
+  }
+  .modal-body {
+    .location {
+      font-size: 18px;
+    }
+    .title {
+      font-size: 18px;
+    }
+    .subject {
+      font-size: 36px;
+      line-height: 36px;
+    }
+    .time {
+      font-size: 18px;
+    }
+    .description {
+      font-size: 18px;
+      line-height: 20px;
+    }
+  }
+}
