@@ -12,8 +12,9 @@ export class SpeakerJochemComponent {
   title = 'Jasper Jochem – Hoofd RCC: RPA & IA bij Defensie'
   subject = 'VR/AR: de toekomst van mens machine interactie'
   location = 'Atlanta'
-  time = '18:00 - 18:30'
-  description = '???'
+  time = '18:15 - 19:15'
+  description =
+    'Jasper Jochem heeft een passie voor de toepassing van technologie. Hij werkt dagelijks aan innovatieve oplossingen, leuker nog is dat hij hier – met een aanstekelijk enthousiasme – alles over weet te vertellen. Bereid je voor op een reis waarin technologieën zoals artificial intelligence, augmented reality en virtual reality worden toegepast bij Defensie.'
 
   constructor(private modal: NgbModal) {}
 

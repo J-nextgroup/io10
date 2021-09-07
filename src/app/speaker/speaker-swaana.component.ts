@@ -12,7 +12,7 @@ export class SpeakerSwaanaComponent {
   title = 'Swaana Snorradottir'
   subject = 'The backend in the frontend'
   location = 'Peking'
-  time = '16:45 - 17:15'
+  time = '16:45 - 17:45'
   description =
     'Door lagen aan elke applicatie toe te voegen, wordt deze modulair en schaalbaar. Maar wat gebeurt er als we backend-praktijken toevoegen aan de frontend?'
 

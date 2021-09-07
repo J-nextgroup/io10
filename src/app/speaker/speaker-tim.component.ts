@@ -9,11 +9,11 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap'
 export class SpeakerTimComponent {
   picture = 'assets/speaker-bg8.jfif'
   portrait = 'assets/tim.png'
-  title = 'Tim de Roode - ABN Amro'
+  title = 'Tim de Roode - ABN AMRO'
   subject =
-    'Het valideren, vertalen, structureren en optimaliseren van klantbehoeftes.'
+    'Het valideren, vertalen, structureren en optimaliseren van klantbehoeftes'
   location = 'Vancouver'
-  time = '18:00 - 18:30'
+  time = '18:15 - 19:15'
   description =
     'Tim de Roode is een freelance Product Owner met ruime ervaring in het valideren en vertalen van klantbehoeftes en het structuren en optimaliseren van interne business- en IT-processen. De laatste jaren zijn werkvormen zoals Design Thinking, Scrum en DevOps enorm in populariteit gestegen. In deze sessie zullen we in gaan op de vraag hoe deze werkvormen zich tot elkaar verhouden en vooral hoe zij elkaar in de praktijk kunnen versterken.'
 

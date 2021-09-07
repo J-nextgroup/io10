@@ -12,7 +12,7 @@ export class SpeakerIsraelComponent {
   title = 'Israel Roldan Leon – Front-end Specialist'
   subject = 'Demystifying the Modern Front-end Stack'
   location = 'Peking'
-  time = '18:00 - 18:30'
+  time = '18:15 - 19:15'
   description =
     'In this talk, I will provide an overview of the current state of Front-end development tools, how we got here and what this means for integration teams looking to pay closer attention to the increasing influence of Front-end development in Software Development teams.'
 

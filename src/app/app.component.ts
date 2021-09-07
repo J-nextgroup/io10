@@ -14,7 +14,7 @@ export class AppComponent {
 
   onSubmit() {
     window.open(
-      `mailto:io10@thehumannetwork.nl?subject=${encodeURIComponent(
+      `mailto:office@io10.nl?subject=${encodeURIComponent(
         'Aanmelding voor IO/10 event'
       )}&body=${encodeURIComponent(
         `Naam: ${this.signup.name}\nE-mail:${this.signup.email}\nLinkedIn:${this.signup.linkedin}`
