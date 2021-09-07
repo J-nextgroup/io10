@@ -38,7 +38,7 @@
                     class="nav-link"
                     href="#sprekers"
                     (click)="scroll($event, '#sprekers')"
-                    >thema's</a
+                    >sprekers</a
                   >
                 </li>
                 <li>
@@ -85,14 +85,19 @@
             <div class="col-lg-1"></div>
             <div class="col-lg-10">
               <h2>
-                Key note speaker Jarno Duursma neemt ons mee in zijn wereld.
+                Keynote speaker Jarno Duursma neemt ons mee in zijn wereld
               </h2>
               <p class="mt-3 mb-0">
                 Jarno is een Nederlandse technologie-expert, publicist,
                 trendwatcher en spreker op het gebied van digitale technologie.
+                Hij trapt io10 af als keynote speaker.
               </p>
-              <a class="btn btn-outline-light mt-3 p-3" href="assets/io10.ics">
-                save the date
+              <a
+                class="btn btn-outline-light mt-3 p-3"
+                href="#aanmelden"
+                (click)="scroll($event, '#aanmelden')"
+              >
+                aanmelden voor io10
               </a>
             </div>
             <div class="col-lg-1"></div>
@@ -119,7 +124,8 @@
           </style>
           <div class="embed-container">
             <iframe
-              src="https://www.youtube.com/embed/UgeZURYbC3o"
+              src="https://www.youtube.com/embed/UgeZURYbC3o?autoplay=1"
+              autoplay="1"
               frameborder="0"
               allowfullscreen
             ></iframe>
@@ -135,7 +141,7 @@
             organisaties zetten hun transformatiemotor in turboversnelling. Wat
             betekent dit voor de toekomst? EportaConsult, Digital Marketing
             Partner, UX Partner en J-Next slaan hun handen ineen. Zij
-            organiseren IO10, een bijeenkomst met interactieve break out sessies
+            organiseren IO10, een bijeenkomst met interactieve breakout sessies
             op het gebied van softwareontwikkeling, Design Thinking en Next
             Level Content Marketing. Ben jij erbij, op de donderdagmiddag 14
             oktober? Meld je aan en neem gerust een introducee mee!
@@ -146,7 +152,7 @@
       <div class="row text-center pt-5" id="sprekers">
         <div class="col">
           <h2>sprekers</h2>
-          <p>Dit zijn de sessies waar je uit kunt kiezen:</p>
+          <p>Dit zijn de thema's waar je uit kunt kiezen:</p>
           <div class="row">
             <div class="col-12 col-md-6 col-xl-3">
               <app-speaker-dennis></app-speaker-dennis>
@@ -199,7 +205,7 @@
                 </tr>
                 <tr>
                   <td class="with-bg" style="height: 30px">15:15 - 15:30</td>
-                  <td class="with-bg">Welkom door John</td>
+                  <td class="with-bg">Welkomstwoord</td>
                   <td colspan="3" class="with-bg-faded"></td>
                 </tr>
                 <tr>
@@ -208,9 +214,9 @@
                   <td colspan="3" class="with-bg-faded"></td>
                 </tr>
                 <tr>
-                  <td class="with-bg" style="height: 130px">16:45 - 17:15</td>
+                  <td class="with-bg" style="height: 130px">16:45 - 17:45</td>
                   <td class="with-bg p-2">
-                    Breakout sessie 1:<br />Dennis van de Stelt<small
+                    Breakout sessie 1:<br />Dennis van der Stelt<small
                       >Hoe om te gaan met eventual consistency.</small
                     >
                   </td>
@@ -231,20 +237,13 @@
                   </td>
                 </tr>
                 <tr>
-                  <td></td>
-                  <td class="with-bg-faded">Eporta / J-Next</td>
-                  <td class="with-bg-faded">DMP</td>
-                  <td class="with-bg-faded">Eporta / J-Next</td>
-                  <td class="with-bg-faded">Eporta / J-Next</td>
+                  <td class="bordered" style="height: 60px">17:45 - 18:15</td>
+                  <td colspan="4" class="bordered">Pauze met appetizers</td>
                 </tr>
                 <tr>
-                  <td class="bordered" style="height: 60px">17:30 - 17:45</td>
-                  <td colspan="4" class="bordered">Ronde 1 DINER in Lobby</td>
-                </tr>
-                <tr>
-                  <td class="with-bg" style="height: 130px">18:00 - 18:30</td>
+                  <td class="with-bg" style="height: 130px">18:15 - 19:15</td>
                   <td class="with-bg p-2">
-                    Breakout sessie 5:<br />Dennis van de Stelt<small
+                    Breakout sessie 5:<br />Dennis van der Stelt<small
                       >Microservices delen nooit data!</small
                     >
                   </td>
@@ -265,17 +264,8 @@
                   </td>
                 </tr>
                 <tr>
-                  <td></td>
-                  <td class="with-bg-faded">Eporta / J-Next</td>
-                  <td class="with-bg-faded">Alle</td>
-                  <td class="with-bg-faded">Eporta / J-Next</td>
-                  <td class="with-bg-faded">Alle</td>
-                </tr>
-                <tr>
                   <td class="bordered" style="height: 60px">19:30 - 19:45</td>
-                  <td colspan="4" class="bordered">
-                    Centrale afsluiting door John & Ronde 2 DINER in Lobby
-                  </td>
+                  <td colspan="4" class="bordered">Food &amp; drinks</td>
                 </tr>
                 <tr>
                   <td class="bordered" style="height: 60px">20:00 - 20:30</td>
@@ -383,9 +373,9 @@
                 <div class="col-2 col-sm-1"><img src="assets/phone.svg" /></div>
                 <div class="col-10 col-sm-11 contactinfo">030 890 5400</div>
               </a>
-              <a class="row mt-3" href="mailto:contact@io10.nl">
+              <a class="row mt-3" href="mailto:office@io10.nl">
                 <div class="col-2 col-sm-1"><img src="assets/mail.svg" /></div>
-                <div class="col-10 col-sm-11 contactinfo">contact@io10.nl</div>
+                <div class="col-10 col-sm-11 contactinfo">office@io10.nl</div>
               </a>
               <p class="mt-4">
                 IO10 wordt georganiseerd in het pand van The Human Network, op
@@ -395,6 +385,10 @@
                 Dit is makkelijk bereikbaar via het openbaar vervoer. Kom je met
                 de auto? Parkeer dan bij de nabijgelegen P&R. Er zijn
                 uitrijkaarten beschikbaar!
+              </p>
+              <p>
+                Let op: We volgen het landelijke beleid voor evenementen. Houd
+                daarom jouw QR-code van de Coronacheck app bij de hand.
               </p>
               <a
                 target="_blank"

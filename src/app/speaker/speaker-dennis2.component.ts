@@ -9,10 +9,10 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap'
 export class SpeakerDennis2Component {
   picture = 'assets/speaker-bg3.jfif'
   portrait = 'assets/dennis.png'
-  title = 'Dennis van de Stelt - Software Architect'
+  title = 'Dennis van der Stelt - Software Architect'
   subject = 'Microservices delen nooit data!'
   location = 'Rio'
-  time = '18:00 - 18:30'
+  time = '18:15 - 19:15'
   description =
     "In deze sessie bespreken we waarom technologie niet helpt bij het oplossen van 'high coupling' in je systeem. We kijken op een andere manier naar microservices, een waarbij ze echt autonoom opereren en nooit data hoeven te delen."
 

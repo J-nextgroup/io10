@@ -13,7 +13,7 @@ export class SpeakerRoelComponent {
   subject =
     'Devops: Becoming the most valuable player automation as a lifestyle'
   location = 'Atlanta'
-  time = '16:45 - 17:15'
+  time = '16:45 - 17:45'
   description =
     'Wil je alle ins en outs van het werken met moderne devops? Deze sessie geeft je al de tips en tricks.'
 
