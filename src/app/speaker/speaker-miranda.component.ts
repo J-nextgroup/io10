@@ -9,7 +9,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap'
 export class SpeakerMirandaComponent {
   picture = 'assets/speaker-bg4.jfif'
   portrait = 'assets/miranda.png'
-  title = 'Miranda Beugelsdijk / Mirthe van Gaalen - Conversational Design'
+  title = 'Miranda Beugelsdijk / Mirthe van Gaalen'
   subject = 'Hoe brengen wij mens en techniek samen?'
   location = 'Vancouver'
   time = '16:45 - 17:45'

@@ -9,9 +9,9 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap'
 export class SpeakerTimComponent {
   picture = 'assets/speaker-bg8.jfif'
   portrait = 'assets/tim.png'
-  title = 'Tim de Roode - ABN AMRO'
+  title = 'Tim de Roode'
   subject =
-    'Het valideren, vertalen, structureren en optimaliseren van klantbehoeftes'
+    'Product Management in de praktijk: Design Thinking + Scrum + DevOps'
   location = 'Vancouver'
   time = '18:15 - 19:15'
   description =
