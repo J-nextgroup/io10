@@ -7,7 +7,7 @@
   width: 250px;
   height: 250px;
   border: 10px solid;
-  border-image-slice: 1;
+  border-image-slice: 1 !important;
   border-width: 1px;
   border-image-source: gradient();
   object-fit: cover;
