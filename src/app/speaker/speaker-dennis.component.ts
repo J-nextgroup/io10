@@ -9,7 +9,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap'
 export class SpeakerDennisComponent {
   picture = 'assets/speaker-bg3.jfif'
   portrait = 'assets/dennis.png'
-  title = 'Dennis van der Stelt - Software Architect'
+  title = 'Dennis van der Stelt'
   subject = 'Hoe om te gaan met eventual consistency'
   location = 'Rio'
   time = '16:45 - 17:45'

@@ -9,7 +9,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap'
 export class SpeakerJochemComponent {
   picture = 'assets/speaker-bg7.jfif'
   portrait = 'assets/jasper.png'
-  title = 'Jasper Jochem – Hoofd RCC: RPA & IA bij Defensie'
+  title = 'Jasper Jochem'
   subject = 'VR/AR: de toekomst van mens machine interactie'
   location = 'Atlanta'
   time = '18:15 - 19:15'

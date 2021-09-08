@@ -9,7 +9,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap'
 export class SpeakerIsraelComponent {
   picture = 'assets/speaker-bg6.jfif'
   portrait = 'assets/israel.png'
-  title = 'Israel Roldan Leon – Front-end Specialist'
+  title = 'Israel Roldan Leon'
   subject = 'Demystifying the Modern Front-end Stack'
   location = 'Peking'
   time = '18:15 - 19:15'
