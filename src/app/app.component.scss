@@ -209,6 +209,12 @@
                 #005971 100.02%
               );
             }
+
+            &[href='#aanmelden'] {
+              background: gradient();
+              background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
           }
         }
         li + li {
