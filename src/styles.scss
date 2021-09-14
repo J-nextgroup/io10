@@ -37,8 +37,8 @@ html {
     to right,
     transparent 0px,
     transparent 9vw,
-    #2c2c2c calc(9vw + 1px),
-    #2c2c2c calc(9vw + 2px)
+    rgb(44, 44, 44, 0.6) calc(9vw + 1px),
+    rgb(44, 44, 44, 0.6) calc(9vw + 2px)
   );
 }
 
