@@ -14,7 +14,7 @@ export class SpeakerSwaanaComponent {
   location = 'Peking'
   time = '16:45 - 17:45'
   description =
-    'Adding layers to any application makes it modular and scalable. But what happens when we add backend practices to the frontend?'
+    'Frontend web-applicaties kunnen steeds meer complexiteit aan dankzij de moderne frontend frameworks en de steeds krachtigere hardware waarop de browsers draaien. Maar waar ligt eigenlijk de grens tussen frontend en backend? In dit praatje bespreken we de mogelijkheid om de backend door te trekken naar de frontend en wat dat kan betekenen voor de samenwerking tussen deze twee disciplines.'
 
   constructor(private modal: NgbModal) {}
 
