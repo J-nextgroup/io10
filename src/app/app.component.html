@@ -2,83 +2,7 @@
   <div class="row justify-content-center">
     <div class="col-10 col-xl-12">
       <div class="row">
-        <div class="col">
-          <nav
-            class="navbar navbar-expand-xl navbar-dark"
-            style="background-color: transparent; padding: 0"
-          >
-            <a class="navbar-brand" href="/"
-              ><img src="assets/logo.png" class="img-fluid navbar-logo"
-            /></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-              style="border: none"
-            >
-              <img src="assets/menu.svg" />
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    href="#intro"
-                    (click)="scroll($event, '#intro')"
-                    >io/10</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    href="#sprekers"
-                    (click)="scroll($event, '#sprekers')"
-                    >sprekers</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="nav-link"
-                    href="#timetable"
-                    (click)="scroll($event, '#timetable')"
-                    >timetable</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="nav-link"
-                    href="#piccalilly"
-                    (click)="scroll($event, '#piccalilly')"
-                    >catering</a
-                  >
-                </li>
-                <!--
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    href="#aanmelden"
-                    (click)="scroll($event, '#aanmelden')"
-                    >aanmelden</a
-                  >
-                </li>
-                -->
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    href="#parking"
-                    (click)="scroll($event, '#parking')"
-                    >parkeren</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
+        <app-navbar class="col"></app-navbar>
       </div>
       <!-- keynote -->
       <div class="row pt-5" id="keynote">
@@ -116,6 +40,7 @@
               overflow: hidden;
               max-width: 100%;
             }
+
             .embed-container iframe,
             .embed-container object,
             .embed-container embed {
@@ -127,11 +52,7 @@
             }
           </style>
           <div class="embed-container">
-            <iframe
-              src="https://www.youtube.com/embed/kjyl6fBCEO4"
-              frameborder="0"
-              allowfullscreen
-            ></iframe>
+            <iframe src="https://www.youtube.com/embed/kjyl6fBCEO4" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -156,32 +77,7 @@
         <div class="col">
           <h2>sprekers</h2>
           <p>Dit zijn de thema's waar je uit kunt kiezen:</p>
-          <div class="row">
-            <div class="col-12 col-md-6 col-xl-3">
-              <app-speaker-dennis></app-speaker-dennis>
-            </div>
-            <div class="col-12 col-md-6 col-xl-3">
-              <app-speaker-miranda></app-speaker-miranda>
-            </div>
-            <div class="col-12 col-md-6 col-xl-3">
-              <app-speaker-swaana></app-speaker-swaana>
-            </div>
-            <div class="col-12 col-md-6 col-xl-3">
-              <app-speaker-roel></app-speaker-roel>
-            </div>
-            <div class="col-12 col-md-6 col-xl-3">
-              <app-speaker-dennis2></app-speaker-dennis2>
-            </div>
-            <div class="col-12 col-md-6 col-xl-3">
-              <app-speaker-tim></app-speaker-tim>
-            </div>
-            <div class="col-12 col-md-6 col-xl-3">
-              <app-speaker-israel></app-speaker-israel>
-            </div>
-            <div class="col-12 col-md-6 col-xl-3">
-              <app-speaker-jochem></app-speaker-jochem>
-            </div>
-          </div>
+          <app-speakers></app-speakers>
         </div>
       </div>
     </div>
@@ -193,93 +89,7 @@
           <p class="text-center" style="font-weight: bold">
             datum: 14 oktober 2021
           </p>
-          <div style="overflow-x: auto">
-            <table style="min-width: 924px">
-              <thead>
-                <tr>
-                  <th></th>
-                  <th>Rio</th>
-                  <th>Vancouver</th>
-                  <th>Peking</th>
-                  <th>Atlanta</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td class="bordered" style="height: 60px">15:00 - 15:15</td>
-                  <td colspan="4" class="bordered">Inloop</td>
-                </tr>
-                <tr>
-                  <td class="with-bg" style="height: 30px">15:15 - 15:30</td>
-                  <td class="with-bg">Welkomstwoord</td>
-                  <td colspan="3" class="with-bg-faded"></td>
-                </tr>
-                <tr>
-                  <td class="with-bg" style="height: 75px">15:30 - 16:30</td>
-                  <td class="with-bg">Keynote:<br />Jarno Duursma</td>
-                  <td colspan="3" class="with-bg-faded"></td>
-                </tr>
-                <tr>
-                  <td class="with-bg" style="height: 130px">16:45 - 17:45</td>
-                  <td class="with-bg p-2">
-                    Breakout sessie 1:<br />Dennis van der Stelt<small
-                      >Hoe om te gaan met eventual consistency.</small
-                    >
-                  </td>
-                  <td class="with-bg p-2">
-                    Breakout sessie 2:<br />Miranda Beugelsdijk / Mirthe van
-                    Gaalen<small>Conversational Design</small>
-                  </td>
-                  <td class="with-bg p-2">
-                    Breakout sessie 3:<br />Swaana Snorradottir<small
-                      >The backend in the frontend</small
-                    >
-                  </td>
-                  <td class="with-bg p-2">
-                    Breakout sessie 4:<br />Jasper Roel<small
-                      >Devops: Becoming the most valuable player (automation as
-                      a lifestyle)</small
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td class="bordered" style="height: 60px">17:45 - 18:15</td>
-                  <td colspan="4" class="bordered">Pauze met appetizers</td>
-                </tr>
-                <tr>
-                  <td class="with-bg" style="height: 130px">18:15 - 19:15</td>
-                  <td class="with-bg p-2">
-                    Breakout sessie 5:<br />Dennis van der Stelt<small
-                      >Microservices delen nooit data!</small
-                    >
-                  </td>
-                  <td class="with-bg p-2">
-                    Breakout sessie 6:<br />Tim de Roode<small
-                      >Versterking tussen design thinking en devops.</small
-                    >
-                  </td>
-                  <td class="with-bg p-2">
-                    Breakout sessie 7:<br />Israel Roldan Leon<small
-                      >Demystifying the modern front-end stack</small
-                    >
-                  </td>
-                  <td class="with-bg p-2">
-                    Breakout sessie 8:<br />Jasper Jochem<small
-                      >AR/VR Defensie</small
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td class="bordered" style="height: 60px">19:30 - 19:45</td>
-                  <td colspan="4" class="bordered">Food &amp; drinks</td>
-                </tr>
-                <tr>
-                  <td class="bordered" style="height: 60px">20:00 - 20:30</td>
-                  <td colspan="4" class="bordered">Borrel Piccalilly</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          <app-timetable style="overflow-x: auto"></app-timetable>
         </div>
       </div>
       <!-- piccalilly -->
@@ -313,11 +123,7 @@
             <div class="col-lg-1"></div>
             <div class="col-lg-10">
               <h2>Parkeren bij The Human Network</h2>
-              <a
-                class="row mt-4"
-                href="https://goo.gl/maps/TFBPSP9t8Wdfbw6v9"
-                target="_blank"
-              >
+              <a class="row mt-4" href="https://goo.gl/maps/TFBPSP9t8Wdfbw6v9" target="_blank">
                 <div class="col-2 col-sm-1"><img src="assets/home.svg" /></div>
                 <div class="col-10 col-sm-11 contactinfo">
                   Orteliuslaan 855 • Utrecht
@@ -340,11 +146,7 @@
                 de auto? Parkeer dan bij de nabijgelegen P&R. Er zijn
                 uitrijkaarten beschikbaar!
               </p>
-              <a
-                target="_blank"
-                href="https://goo.gl/maps/TFBPSP9t8Wdfbw6v9"
-                class="p-3 btn btn-outline-light"
-              >
+              <a target="_blank" href="https://goo.gl/maps/TFBPSP9t8Wdfbw6v9" class="p-3 btn btn-outline-light">
                 plan route
               </a>
             </div>
@@ -353,38 +155,9 @@
         </div>
       </div>
     </div>
-    <div class="col-12 px-0">
+    <div class="col-12 px-0" id="logos">
       <!-- logo's -->
-      <div
-        class="row justify-content-center text-dark text-center no-gutters"
-        id="logos"
-      >
-        <div class="col-12 col-lg-2 mt-5">
-          <a href="https://uxpartner.nl" target="_blank">
-            <img src="assets/uxpartner.svg" class="img-fluid" />
-          </a>
-        </div>
-        <div class="col-12 col-lg-2 mt-5">
-          <a href="https://sultansofjava.nl" target="_blank">
-            <img src="assets/jnext.svg" class="img-fluid" />
-          </a>
-        </div>
-        <div class="col-12 col-lg-3 mt-5">
-          <a href="https://digitalmarketingpartner.nl" target="_blank">
-            <img src="assets/dmp.svg" class="img-fluid" />
-          </a>
-        </div>
-        <div class="col-12 col-lg-2 mt-5">
-          <a href="https://eportaconsult.nl" target="_blank">
-            <img src="assets/eporta.svg" class="img-fluid" />
-          </a>
-        </div>
-        <div class="col-12 col-lg-3 mt-5 mb-5">
-          <a href="https://thehumannetwork.nl" target="_blank">
-            <img src="assets/thn.svg" class="img-fluid" />
-          </a>
-        </div>
-      </div>
+      <app-logos></app-logos>
     </div>
   </div>
 </div>

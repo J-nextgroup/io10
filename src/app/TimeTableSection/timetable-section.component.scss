@@ -1,0 +1,36 @@
+@import '../../functions';
+
+table {
+  margin: 0 auto;
+  border-spacing: 10px;
+  border-collapse: separate;
+  font-size: 1.0625em;
+  text-align: center;
+  th {
+    font-weight: normal;
+    width: 125px;
+    height: 40px;
+  }
+  th + th {
+    background: gradient();
+    width: 200px;
+  }
+
+  .bordered {
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: gradient();
+  }
+
+  .with-bg {
+    background: gradient(0.25);
+  }
+
+  .with-bg-faded {
+    background: gradient(0.1);
+  }
+
+  small {
+    display: block;
+  }
+}

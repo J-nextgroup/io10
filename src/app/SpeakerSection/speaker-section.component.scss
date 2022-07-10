@@ -1,6 +1,5 @@
 @import '../../functions';
 @import '../../variables';
-@import '~bootstrap/scss/bootstrap';
 
 .card-img-top {
   margin: 0 auto;
@@ -95,7 +94,7 @@
   }
 }
 
-@include media-breakpoint-up(md) {
+@media (min-width: 768px) {
   .img-top {
     height: 200px;
   }
