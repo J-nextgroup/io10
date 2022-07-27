@@ -1,0 +1,70 @@
+@import '../../functions';
+@import '../../variables';
+
+.navbar-logo {
+  max-width: 167px;
+}
+
+.navbar {
+  ul.navbar-nav {
+    font-size: 22px;
+    line-height: 27.5px;
+    font-weight: bold;
+    li {
+      a {
+        color: white;
+        border-bottom: solid 2px transparent;
+        &:hover {
+          color: white;
+          border-bottom: 2px solid;
+          border-image-slice: 1;
+          border-image-source: linear-gradient(
+            90deg,
+            #00ce7c 0.04%,
+            #5cc3b0 31.81%,
+            #00a1de 71.9%,
+            #005971 100.02%
+          );
+        }
+
+        &[href='#aanmelden'] {
+          background: gradient();
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-logo {
+    max-width: 245px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    ul.navbar-nav {
+      text-align: center;
+      margin-top: 20px;
+      a {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar {
+    justify-content: space-between;
+    .navbar-collapse {
+      flex: 0 1 auto;
+      ul.navbar-nav {
+        li + li {
+          margin-left: 40px;
+        }
+      }
+    }
+  }
+}

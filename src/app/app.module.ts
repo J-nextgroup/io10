@@ -1,32 +1,29 @@
+import { Navbar } from './Navbar/navbar.component'
+import { TimeTableSection } from './TimeTableSection/timetable-section.component'
+import { SpeakerSection } from './SpeakerSection/speaker-section.component'
+import { LogoSection } from './LogoSection/logo-section.component'
 import { NgModule } from '@angular/core'
 import { BrowserModule } from '@angular/platform-browser'
 
-import { AppRoutingModule } from './app-routing.module'
+// import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
-import { SpeakerDennisComponent } from './speaker/speaker-dennis.component'
-import { SpeakerDennis2Component } from './speaker/speaker-dennis2.component'
-import { SpeakerMirandaComponent } from './speaker/speaker-miranda.component'
-import { SpeakerIsraelComponent } from './speaker/speaker-israel.component'
-import { SpeakerJochemComponent } from './speaker/speaker-jochem.component'
-import { SpeakerRoelComponent } from './speaker/speaker-roel.component'
-import { SpeakerTimComponent } from './speaker/speaker-tim.component'
-import { SpeakerSwaanaComponent } from './speaker/speaker-swaana.component'
 import { FormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
     AppComponent,
-    SpeakerDennisComponent,
-    SpeakerDennis2Component,
-    SpeakerMirandaComponent,
-    SpeakerRoelComponent,
-    SpeakerIsraelComponent,
-    SpeakerJochemComponent,
-    SpeakerTimComponent,
-    SpeakerSwaanaComponent,
+    SpeakerSection,
+    LogoSection,
+    TimeTableSection,
+    Navbar,
   ],
-  imports: [BrowserModule, AppRoutingModule, NgbModule, FormsModule],
+  imports: [
+    BrowserModule,
+    // AppRoutingModule,
+    NgbModule,
+    FormsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

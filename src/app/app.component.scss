@@ -1,6 +1,5 @@
 @import '../functions';
 @import '../variables';
-@import '~bootstrap/scss/bootstrap';
 
 #keynote {
   h2 {
@@ -47,41 +46,6 @@
   h2 {
     text-align: center;
     font-size: 3.125em;
-  }
-
-  table {
-    margin: 0 auto;
-    border-spacing: 10px;
-    border-collapse: separate;
-    font-size: 1.0625em;
-    text-align: center;
-    th {
-      font-weight: normal;
-      width: 125px;
-      height: 40px;
-    }
-    th + th {
-      background: gradient();
-      width: 200px;
-    }
-
-    .bordered {
-      border: 1px solid;
-      border-image-slice: 1;
-      border-image-source: gradient();
-    }
-
-    .with-bg {
-      background: gradient(0.25);
-    }
-
-    .with-bg-faded {
-      background: gradient(0.1);
-    }
-
-    small {
-      display: block;
-    }
   }
 }
 
@@ -148,11 +112,7 @@
   }
 }
 
-.navbar-logo {
-  max-width: 167px;
-}
-
-@include media-breakpoint-up(md) {
+@media (min-width: 768px) {
   h1,
   h2,
   h3,
@@ -185,7 +145,7 @@
   }
 }
 
-@include media-breakpoint-up(lg) {
+@media (min-width: 992px) {
   #intro,
   #sprekers,
   #timetable,
@@ -212,64 +172,6 @@
   #parking {
     .img-parking {
       height: 850px;
-    }
-  }
-}
-
-.navbar {
-  ul.navbar-nav {
-    font-size: 22px;
-    line-height: 27.5px;
-    font-weight: bold;
-    li {
-      a {
-        color: white;
-        border-bottom: solid 2px transparent;
-        &:hover {
-          color: white;
-          border-bottom: 2px solid;
-          border-image-slice: 1;
-          border-image-source: linear-gradient(
-            90deg,
-            #00ce7c 0.04%,
-            #5cc3b0 31.81%,
-            #00a1de 71.9%,
-            #005971 100.02%
-          );
-        }
-
-        &[href='#aanmelden'] {
-          background: gradient();
-          background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
-      }
-    }
-  }
-}
-
-@include media-breakpoint-down(lg) {
-  .navbar {
-    ul.navbar-nav {
-      text-align: center;
-      margin-top: 20px;
-      a {
-        display: inline-block;
-      }
-    }
-  }
-}
-
-@include media-breakpoint-up(xl) {
-  .navbar {
-    justify-content: space-between;
-    .navbar-collapse {
-      flex: 0 1 auto;
-      ul.navbar-nav {
-        li + li {
-          margin-left: 40px;
-        }
-      }
     }
   }
 }
