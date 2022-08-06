@@ -1,6 +1,15 @@
 @import '../../functions';
 @import '../../variables';
 
+h2 {
+  font-size: 3.125em;
+  line-height: 1em;
+}
+p {
+  font-size: 1.375em;
+  line-height: 1.5em;
+}
+
 .card-img-top {
   margin: 0 auto;
   width: 250px;
@@ -61,6 +70,12 @@
   text-align: center;
   line-height: 85px;
   font-size: 12px;
+}
+
+.unknown > .card-img-top,
+.unknown > .portrait {
+  object-fit: contain;
+  padding: 1rem;
 }
 
 .modal-body {
