@@ -1,6 +1,7 @@
 export interface Speaker {
   picture: string
   portrait: string
+  isDefaultLogo: Boolean
   title: string
   subject: string
   location: string
@@ -22,8 +23,9 @@ export interface NavbarItem {
 
 export const speakers: Speaker[] = [
   {
-    picture: 'assets/speaker-bg3.jfif',
-    portrait: 'assets/dennis.png',
+    picture: 'assets/logo.png',
+    portrait: 'assets/logo.png',
+    isDefaultLogo: true,
     title: 'Michael Schifferling / Erwin Bell',
     subject: 'Game development',
     location: 'Rio',
@@ -34,6 +36,7 @@ export const speakers: Speaker[] = [
   {
     picture: 'assets/alberga_consultancy.jfif',
     portrait: 'assets/julia_alberga.png',
+    isDefaultLogo: false,
     title: 'Julia Alberga',
     subject: 'UX binnen de overheid',
     location: 'Vancouver',
@@ -44,6 +47,7 @@ export const speakers: Speaker[] = [
   {
     picture: 'assets/speaker-bg3.jfif',
     portrait: 'assets/swaana.jpg',
+    isDefaultLogo: false,
     title: 'Swaana Snorradottir',
     subject: 'Front-end development',
     location: 'Peking',
@@ -52,8 +56,9 @@ export const speakers: Speaker[] = [
       'Frontend web-applicaties kunnen steeds meer complexiteit aan dankzij de moderne frontend frameworks en de steeds krachtigere hardware waarop de browsers draaien. Maar waar ligt eigenlijk de grens tussen frontend en backend? In dit praatje bespreken we de mogelijkheid om de backend door te trekken naar de frontend en wat dat kan betekenen voor de samenwerking tussen deze twee disciplines.',
   },
   {
-    picture: 'assets/speaker-bg5.jfif',
-    portrait: 'assets/jasperroel.png',
+    picture: 'assets/logo.png',
+    portrait: 'assets/logo.png',
+    isDefaultLogo: true,
     title: 'Bjorn van der Beek',
     subject: 'Azure en .Net',
     location: 'Atlanta',
@@ -64,6 +69,7 @@ export const speakers: Speaker[] = [
   {
     picture: 'assets/logo.png',
     portrait: 'assets/logo.png',
+    isDefaultLogo: true,
     title: 'TO BE ANNOUNCED',
     subject: '',
     location: '',
@@ -73,6 +79,7 @@ export const speakers: Speaker[] = [
   {
     picture: 'assets/logo.png',
     portrait: 'assets/logo.png',
+    isDefaultLogo: true,
     title: 'TO BE ANNOUNCED',
     subject: '',
     location: '',
@@ -82,6 +89,7 @@ export const speakers: Speaker[] = [
   {
     picture: 'assets/logo.png',
     portrait: 'assets/logo.png',
+    isDefaultLogo: true,
     title: 'TO BE ANNOUNCED',
     subject: '',
     location: '',
@@ -91,6 +99,7 @@ export const speakers: Speaker[] = [
   {
     picture: 'assets/logo.png',
     portrait: 'assets/logo.png',
+    isDefaultLogo: true,
     title: 'TO BE ANNOUNCED',
     subject: '',
     location: '',
