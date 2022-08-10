@@ -3,8 +3,7 @@
   <p>Dit zijn de thema's waar je uit kunt kiezen:</p>
   <div class="row">
     <div class="col-12 col-md-6 col-xl-3" *ngFor="let speaker of speakers">
-      <div class="card text-white" style="background-color: transparent"
-        [ngClass]="{'unknown': speaker.title === 'TO BE ANNOUNCED'}">
+      <div class="card text-white" style="background-color: transparent" [ngClass]="{'unknown': speaker.isDefaultLogo}">
         <img [src]="speaker.picture" class="card-img-top p-3" [alt]="speaker.subject" />
         <img [src]="speaker.portrait" [alt]="speaker.title" class="img-fluid portrait" />
         <div class="card-body">
