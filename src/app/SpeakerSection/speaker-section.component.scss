@@ -72,8 +72,8 @@ p {
   font-size: 12px;
 }
 
-.unknown > .card-img-top,
-.unknown > .portrait {
+.unknown.card-img-top,
+.unknown.portrait {
   object-fit: contain;
   padding: 1rem;
 }
