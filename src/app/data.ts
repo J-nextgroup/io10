@@ -1,7 +1,8 @@
 export interface Speaker {
   picture: string
   portrait: string
-  isDefaultLogo: Boolean
+  isDefaultPicture: Boolean
+  isDefaultBanner: Boolean
   title: string
   subject: string
   location: string
@@ -25,20 +26,21 @@ export const speakers: Speaker[] = [
   {
     picture: 'assets/logo.png',
     portrait: 'assets/logo.png',
-    isDefaultLogo: true,
+    isDefaultPicture: true,
+    isDefaultBanner: true,
     title: 'Michael Schifferling / Erwin Bell',
-    subject: 'Game development',
+    subject: 'Game development for Gamers and non Gamers alike.',
     location: 'Rio',
     time: '',
-    description:
-      'Als developer en software architect willen we dat onze systemen performant en onderhoudbaar zijn. Veel van deze beslissingen zorgen voor eventual consistency, hoewel gebruikers onmiddellijke consistentie willen. Ze willen niet wachten op ‘eventual’ en hebben liever direct feedback van hun acties op het systeem. In deze sessie kijken we naar manieren, zowel in de gebruikersinterface als in de back-end, om direct feedback te geven aan eindgebruikers, ook al is de back-end nog niet volledig bijgewerkt, waardoor we ons systeem nog steedsbetrouwbaar en performant kunnen laten draaien.',
+    description: `Game development is not new but constantly changing. Now maybe faster than ever, and more importantly, more accesible for more people than ever. In this session we will take you on a brief journey into the possibilities of game development in 2022 and beyond. Subjects covered are: Game Industry in numbers, opportunities and trends in gamification, serious gaming and games as learning, insights in new game technology and game design. We conclude the session with some beginner friendly pointers if you want to venture into game development for yourself.`,
   },
   {
     picture: 'assets/alberga_consultancy.jfif',
     portrait: 'assets/julia_alberga.png',
-    isDefaultLogo: false,
+    isDefaultPicture: false,
+    isDefaultBanner: false,
     title: 'Julia Alberga',
-    subject: 'UX binnen de overheid',
+    subject: 'Design Democracy',
     location: 'Vancouver',
     time: '',
     description:
@@ -47,18 +49,20 @@ export const speakers: Speaker[] = [
   {
     picture: 'assets/speaker-bg3.jfif',
     portrait: 'assets/swaana.jpg',
-    isDefaultLogo: false,
+    isDefaultPicture: false,
+    isDefaultBanner: false,
     title: 'Swaana Snorradottir',
-    subject: 'Front-end development',
+    subject: 'The full-stack of Jamstack',
     location: 'Peking',
     time: '',
     description:
-      'Frontend web-applicaties kunnen steeds meer complexiteit aan dankzij de moderne frontend frameworks en de steeds krachtigere hardware waarop de browsers draaien. Maar waar ligt eigenlijk de grens tussen frontend en backend? In dit praatje bespreken we de mogelijkheid om de backend door te trekken naar de frontend en wat dat kan betekenen voor de samenwerking tussen deze twee disciplines.',
+      'Modern day websites need to be fast, secure and scalable. In this talk we will look at how Jamstack can contribute to these demands with core concepts such as pre-rendering, static site generators and api decoupling.',
   },
   {
     picture: 'assets/logo.png',
-    portrait: 'assets/logo.png',
-    isDefaultLogo: true,
+    portrait: 'assets/bjorn.jpeg',
+    isDefaultPicture: false,
+    isDefaultBanner: true,
     title: 'Bjorn van der Beek',
     subject: 'Azure en .Net',
     location: 'Atlanta',
@@ -68,38 +72,49 @@ export const speakers: Speaker[] = [
   },
   {
     picture: 'assets/logo.png',
-    portrait: 'assets/logo.png',
-    isDefaultLogo: true,
-    title: 'TO BE ANNOUNCED',
-    subject: '',
+    portrait: 'assets/martin.png',
+    isDefaultPicture: false,
+    isDefaultBanner: true,
+    title: 'Martin C. de Munnik',
+    subject: 'Neuromarketing',
     location: '',
     time: '',
-    description: '',
+    description: `Op een vermakelijke wijze deelt De Munnik de inzichten die hij met zijn bedrijf
+    Neurensics heeft opgedaan gedurende vele honderden studies voor klanten over de hele
+    wereld.. We krijgen een spectaculair kijkje in de werking van ons brein, als het gaat om het
+    verbeteren van het effect van marketing. De Munnik laat zien hoe merken werken en
+    geeft ons tips en trucs, do’s en don’ts. Zodat jij je werk morgen beter kan doen dan
+    gisteren.`,
+  },
+  {
+    picture: 'assets/logo.png',
+    portrait: 'assets/saskia.jpg',
+    isDefaultPicture: false,
+    isDefaultBanner: true,
+    title: 'Saskia Groenewegen',
+    subject:
+      'More than a Game: the Future of Education and Work in the Metaverse',
+    location: '',
+    time: '',
+    description: `The Metaverse is often seen as the future of social media and gaming. But it can be so much more! Get inspired by the possibilies of immersive learning and how XR technologies like virtual, augmented and mixed reality can help people work faster, safer and with more fun. See how farmers use AR glasses to navigate animal data, how mechanics work together remotely to do repairs on complex systems, and how future nurses train in virtual reality to prepare for work in a warzone. This talk will give you an overview over the possibilities and the benefits of XR technologies in many different work and training situations, and a look at the underlying hard- and software.`,
+  },
+  {
+    picture: 'assets/logo.png',
+    portrait: 'assets/richard.png',
+    isDefaultPicture: false,
+    isDefaultBanner: true,
+    title: 'Richard van Hooijdonk',
+    subject: 'Keynote spreker',
+    location: '',
+    time: '',
+    description:
+      'Als bevlogen keynotespreker laat Richard van Hooijdonk de bezoekers van zijn inspiratiesessies een toekomst zien die we nog nauwelijks kunnen bevatten. Hij maakt daarbij een vertaalslag van wetenschappelijke doorbraken en technologische ontwikkelingen naar de impact daarvan op ons dagelijks leven, onze organisaties en onze overheden.',
   },
   {
     picture: 'assets/logo.png',
     portrait: 'assets/logo.png',
-    isDefaultLogo: true,
-    title: 'TO BE ANNOUNCED',
-    subject: '',
-    location: '',
-    time: '',
-    description: '',
-  },
-  {
-    picture: 'assets/logo.png',
-    portrait: 'assets/logo.png',
-    isDefaultLogo: true,
-    title: 'TO BE ANNOUNCED',
-    subject: '',
-    location: '',
-    time: '',
-    description: '',
-  },
-  {
-    picture: 'assets/logo.png',
-    portrait: 'assets/logo.png',
-    isDefaultLogo: true,
+    isDefaultPicture: true,
+    isDefaultBanner: true,
     title: 'TO BE ANNOUNCED',
     subject: '',
     location: '',
