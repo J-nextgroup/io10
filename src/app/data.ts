@@ -40,7 +40,7 @@ export const speakers: Speaker[] = [
     isDefaultPicture: false,
     isDefaultBanner: false,
     title: 'Julia Alberga',
-    subject: 'UX binnen de overheid',
+    subject: 'Design Democracy',
     location: 'Vancouver',
     time: '',
     description:
