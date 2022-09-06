@@ -44,7 +44,7 @@ export const speakers: Speaker[] = [
     location: 'Vancouver',
     time: '',
     description:
-      'Julia Alberga is expert in klantbeleving middels Design Thinking technieken. Als UX consultant en onderzoeker helpt zij bedrijven om onderzoek te doen naar de behoeftes van de gebruiker en deze vervolgens te vertalen naar verbeterde diensten en producten. Dit doet zij door de gebruiker actief mee te laten ontwerpen in het design proces middels co-creatie tools. Haar technische achtergrond in Delft zorgt er bovendien voor dat zij het ontwerpproces zelf beheerst en de verbeteringen kan overbrengen aan developers en ontwerpers. Door bedrijven te helpen met het intergeren van deze technieken in hun dagelijkse werkzaamheden, hoopt ze dat de Design Thinking denkwijze zich als een olievlek verspreid en iedereen als motto heeft om de gebruiker centraal te stellen.',
+      'Julia Alberga is expert in Design Thinking-technieken en haar focus ligt op klantbeleving. Als UX-consultant en onderzoeker helpt zij bedrijven om onderzoek te doen naar de behoeftes van de gebruiker en de doorvertaling hiervan naar verbeterde diensten en producten. Dit doet zij door de gebruiker actief mee te laten ontwerpen in het design proces met behulp van co-creatie tools. Julia’s technische achtergrond zorgt er bovendien voor dat zij het ontwerpproces beheerst en de verbeteringen kan overbrengen aan developers en ontwerpers. Door bedrijven te helpen met het integreren van deze technieken in hun dagelijkse werkzaamheden, hoopt ze dat de Design Thinking denkwijze zich als een olievlek verspreid en iedereen als motto heeft om de gebruiker centraal te stellen.',
   },
   {
     picture: 'assets/speaker-bg3.jfif',
