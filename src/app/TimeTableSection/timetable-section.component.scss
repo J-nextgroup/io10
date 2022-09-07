@@ -39,3 +39,17 @@ h2 {
   text-align: center;
   font-size: 3.125em;
 }
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.default-logo {
+  object-fit: contain;
+  padding: 1rem;
+}
