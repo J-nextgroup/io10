@@ -18,9 +18,9 @@
                 speaker Richard van Hooijonk
               </p>
 
-              <!-- <a class="btn btn-outline-light mt-3 p-3" href="#aanmelden" (click)="scroll($event, '#aanmelden')">
+              <a class="btn btn-outline-light mt-3 p-3" href="#aanmelden" (click)="scroll($event, '#aanmelden')">
                 aanmelden voor io10
-              </a> -->
+              </a>
 
             </div>
             <div class="col-lg-1"></div>
@@ -96,6 +96,36 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="col-10">
+      <form (ngSubmit)="onSubmit()" #signupForm="ngForm">
+        <div class="row mt-5 justify-content-center" id="aanmelden">
+          <div class="col-12 text-center">
+            <h2>Ja, ik wil me aanmelden voor het io/10 event.</h2>
+          </div>
+          <div class="col-10 mt-3">
+            <div class="form-row">
+              <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="Naam" name="name" required
+                  [(ngModel)]="signup.name" />
+              </div>
+              <div class="col-md-4 mt-3 mt-md-0">
+                <input type="text" class="form-control" placeholder="E-mail" name="email" required
+                  [(ngModel)]="signup.email" />
+              </div>
+              <div class="col-md-4 mt-3 mt-md-0">
+                <input type="text" class="form-control" placeholder="Linkedin url" name="linkedin" required
+                  [(ngModel)]="signup.linkedin" />
+              </div>
+            </div>
+          </div>
+          <div class="col-10 text-right mt-3">
+            <button type="submit" class="btn btn-outline-light p-2 px-4" [disabled]="!signupForm.form.valid">
+              Aanmelden
+            </button>
+          </div>
+        </div>
+      </form>
     </div>
     <div class="col-10 col-xl-12">
       <!-- parking -->
