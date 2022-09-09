@@ -166,3 +166,15 @@
     }
   }
 }
+
+.start-register-button {
+  background: gradient();
+  color: white;
+  border: thin solid transparent;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+.start-register-button:hover {
+  border: thin solid white;
+}
