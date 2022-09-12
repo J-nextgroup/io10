@@ -30,15 +30,15 @@ export const speakers: Speaker[] = [
     isDefaultBanner: true,
     title: 'Michael Schifferling / Erwin Bell',
     subject: 'Game development for Gamers and non Gamers alike.',
-    location: 'Rio',
+    location: 'Vancouver',
     time: '',
     description: `Game development is not new but constantly changing. Now maybe faster than ever, and more importantly, more accesible for more people than ever. In this session we will take you on a brief journey into the possibilities of game development in 2022 and beyond. Subjects covered are: Game Industry in numbers, opportunities and trends in gamification, serious gaming and games as learning, insights in new game technology and game design. We conclude the session with some beginner friendly pointers if you want to venture into game development for yourself.`,
   },
   {
-    picture: 'assets/alberga_consultancy.jfif',
+    picture: 'assets/logo.png',
     portrait: 'assets/julia_alberga.png',
     isDefaultPicture: false,
-    isDefaultBanner: false,
+    isDefaultBanner: true,
     title: 'Julia Alberga',
     subject: 'Design Democracy',
     location: 'Vancouver',
@@ -47,10 +47,10 @@ export const speakers: Speaker[] = [
       'Julia Alberga is expert in Design Thinking-technieken en haar focus ligt op klantbeleving. Als UX-consultant en onderzoeker helpt zij bedrijven om onderzoek te doen naar de behoeftes van de gebruiker en de doorvertaling hiervan naar verbeterde diensten en producten. Dit doet zij door de gebruiker actief mee te laten ontwerpen in het design proces met behulp van co-creatie tools. Julia’s technische achtergrond zorgt er bovendien voor dat zij het ontwerpproces beheerst en de verbeteringen kan overbrengen aan developers en ontwerpers. Door bedrijven te helpen met het integreren van deze technieken in hun dagelijkse werkzaamheden, hoopt ze dat de Design Thinking denkwijze zich als een olievlek verspreid en iedereen als motto heeft om de gebruiker centraal te stellen.',
   },
   {
-    picture: 'assets/speaker-bg3.jfif',
+    picture: 'assets/logo.png',
     portrait: 'assets/swaana.jpg',
     isDefaultPicture: false,
-    isDefaultBanner: false,
+    isDefaultBanner: true,
     title: 'Swaana Snorradottir',
     subject: 'The full-stack of Jamstack',
     location: 'Peking',
@@ -64,11 +64,11 @@ export const speakers: Speaker[] = [
     isDefaultPicture: false,
     isDefaultBanner: true,
     title: 'Bjorn van der Beek',
-    subject: 'Azure en .Net',
-    location: 'Atlanta',
+    subject: 'Implementing clean architecture',
+    location: 'Peking',
     time: '',
-    description:
-      '“Production ready” betekent niet alleen maar “de code is af”. Als programmeur is de code nog maar een deel van je werk. Automatische deploys, monitoring & alerting rules en inzicht in wat er in je applicatie gebeurt zijn minstens zo belangrijk. In deze sessie kijken we samen naar wat er allemaal nog meer komt kijken om je applicatie niet alleen werkend, maar ook succesvol te maken. Via handige (maar weinig bekende) tools, tips & tricks om je te helpen zorg je ervoor dat jouw applicatie er met kop en schouders boven uit steekt.',
+    description: `We werken steeds vaker met (micro) services. Je ziet vaak dat bedrijven zelf een blauwprint hebben hoe deze services eruit moeten zien. Helaas zie ik steeds ik weer op projecten dat business logica afhankelijk is geworden van allerlei technologie en infrastructuur. Vaak gaat het al mis in de blauwprint.
+    In dit verhaal neem ik je mee wat clean architecture is, hoe je het in praktisch elk applicatie landschap toe kunt en wilt toepassen en hoe het ervoor zorgt dat software onderhoudbaarder is en blijft gedurende de application lifecycle.`,
   },
   {
     picture: 'assets/logo.png',
@@ -77,7 +77,7 @@ export const speakers: Speaker[] = [
     isDefaultBanner: true,
     title: 'Martin C. de Munnik',
     subject: 'Neuromarketing',
-    location: '',
+    location: 'Rio',
     time: '',
     description: `Op een vermakelijke wijze deelt De Munnik de inzichten die hij met zijn bedrijf
     Neurensics heeft opgedaan gedurende vele honderden studies voor klanten over de hele
@@ -94,7 +94,7 @@ export const speakers: Speaker[] = [
     title: 'Saskia Groenewegen',
     subject:
       'More than a Game: the Future of Education and Work in the Metaverse',
-    location: '',
+    location: 'Rio',
     time: '',
     description: `The Metaverse is often seen as the future of social media and gaming. But it can be so much more! Get inspired by the possibilies of immersive learning and how XR technologies like virtual, augmented and mixed reality can help people work faster, safer and with more fun. See how farmers use AR glasses to navigate animal data, how mechanics work together remotely to do repairs on complex systems, and how future nurses train in virtual reality to prepare for work in a warzone. This talk will give you an overview over the possibilities and the benefits of XR technologies in many different work and training situations, and a look at the underlying hard- and software.`,
   },
@@ -105,7 +105,7 @@ export const speakers: Speaker[] = [
     isDefaultBanner: true,
     title: 'Richard van Hooijdonk',
     subject: 'Keynote spreker',
-    location: '',
+    location: 'Rio',
     time: '',
     description:
       'Als bevlogen keynotespreker laat Richard van Hooijdonk de bezoekers van zijn inspiratiesessies een toekomst zien die we nog nauwelijks kunnen bevatten. Hij maakt daarbij een vertaalslag van wetenschappelijke doorbraken en technologische ontwikkelingen naar de impact daarvan op ons dagelijks leven, onze organisaties en onze overheden.',
@@ -152,7 +152,7 @@ export const logos: LogoSection[] = [
 ]
 
 export const navbarItems: NavbarItem[] = [
-  { href: '#intro', scroll_to: '#intro', text: 'io/10' },
+  { href: '#intro', scroll_to: '#intro', text: 'io10' },
   { href: '#sprekers', scroll_to: '#sprekers', text: 'sprekers' },
   { href: '#timetable', scroll_to: '#timetable', text: 'timetable' },
   { href: '#piccalilly', scroll_to: '#piccalilly', text: 'catering' },
