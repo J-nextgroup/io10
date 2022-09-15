@@ -6,8 +6,10 @@
       <div class="card text-white" style="background-color: transparent">
         <img [src]="speaker.picture" class="card-img-top p-3" [alt]="speaker.subject"
           [ngClass]="{'unknown': speaker.isDefaultBanner}" />
-        <img [src]="speaker.portrait" [alt]="speaker.title" class="img-fluid portrait"
-          [ngClass]="{'unknown': speaker.isDefaultPicture}" />
+        <div>
+          <img [src]="portrait" [alt]="speaker.title" class="img-fluid portrait"
+            [ngClass]="{'unknown': speaker.isDefaultPicture}" *ngFor="let portrait of speaker.portrait" />
+        </div>
         <div class="card-body">
           <h5 class="card-title">{{ speaker.title }}</h5>
           <p class="card-text">{{ speaker.subject }}</p>
@@ -33,7 +35,8 @@
                 <div class="location">{{ currentSpeaker.location }}</div>
               </div>
               <div class="col-6 col-md-12 mt-md-5 text-center">
-                <img [src]="currentSpeaker.portrait" [alt]="currentSpeaker.title" class="img-fluid portrait" />
+                <img [src]="portrait" [alt]="currentSpeaker.title" class="img-fluid portrait"
+                  *ngFor="let portrait of currentSpeaker.portrait" />
                 <div class="title mt-2">{{ currentSpeaker.title }}</div>
               </div>
             </div>
