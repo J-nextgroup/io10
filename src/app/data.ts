@@ -1,6 +1,6 @@
 export interface Speaker {
   picture: string
-  portrait: string
+  portrait: string[]
   isDefaultPicture: Boolean
   isDefaultBanner: Boolean
   title: string
@@ -25,8 +25,8 @@ export interface NavbarItem {
 export const speakers: Speaker[] = [
   {
     picture: 'assets/logo.png',
-    portrait: 'assets/logo.png',
-    isDefaultPicture: true,
+    portrait: ['assets/michael.jpg', 'assets/erwin.JPG'],
+    isDefaultPicture: false,
     isDefaultBanner: true,
     title: 'Michael Schifferling / Erwin Bell',
     subject: 'Game development for Gamers and non Gamers alike.',
@@ -36,7 +36,7 @@ export const speakers: Speaker[] = [
   },
   {
     picture: 'assets/logo.png',
-    portrait: 'assets/julia_alberga.png',
+    portrait: ['assets/julia_alberga.png'],
     isDefaultPicture: false,
     isDefaultBanner: true,
     title: 'Julia Alberga',
@@ -48,7 +48,7 @@ export const speakers: Speaker[] = [
   },
   {
     picture: 'assets/logo.png',
-    portrait: 'assets/swaana.jpg',
+    portrait: ['assets/swaana.jpg'],
     isDefaultPicture: false,
     isDefaultBanner: true,
     title: 'Swaana Snorradottir',
@@ -60,7 +60,7 @@ export const speakers: Speaker[] = [
   },
   {
     picture: 'assets/logo.png',
-    portrait: 'assets/bjorn.jpeg',
+    portrait: ['assets/bjorn.jpeg'],
     isDefaultPicture: false,
     isDefaultBanner: true,
     title: 'Bjorn van der Beek',
@@ -72,7 +72,7 @@ export const speakers: Speaker[] = [
   },
   {
     picture: 'assets/logo.png',
-    portrait: 'assets/martin.png',
+    portrait: ['assets/martin.png'],
     isDefaultPicture: false,
     isDefaultBanner: true,
     title: 'Martin C. de Munnik',
@@ -88,7 +88,7 @@ export const speakers: Speaker[] = [
   },
   {
     picture: 'assets/logo.png',
-    portrait: 'assets/saskia.jpg',
+    portrait: ['assets/saskia.jpg'],
     isDefaultPicture: false,
     isDefaultBanner: true,
     title: 'Saskia Groenewegen',
@@ -100,7 +100,7 @@ export const speakers: Speaker[] = [
   },
   {
     picture: 'assets/logo.png',
-    portrait: 'assets/richard.png',
+    portrait: ['assets/richard.png'],
     isDefaultPicture: false,
     isDefaultBanner: true,
     title: 'Richard van Hooijdonk',
@@ -112,7 +112,7 @@ export const speakers: Speaker[] = [
   },
   {
     picture: 'assets/logo.png',
-    portrait: 'assets/logo.png',
+    portrait: ['assets/logo.png'],
     isDefaultPicture: true,
     isDefaultBanner: true,
     title: 'TO BE ANNOUNCED',
