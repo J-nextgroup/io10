@@ -8,6 +8,7 @@ export interface Speaker {
   location: string
   time: string
   description: string
+  remarks?: string
 }
 
 export interface LogoSection {
@@ -115,11 +116,12 @@ export const speakers: Speaker[] = [
     portrait: ['assets/logo.png'],
     isDefaultPicture: true,
     isDefaultBanner: true,
-    title: 'TO BE ANNOUNCED',
-    subject: '',
-    location: '',
+    remarks: 'Requires an AWS account ready to be used, which can be created for free.',
+    title: 'Leone Lage Perdigão',
+    subject: 'Serverless 101 - Getting started with AWS Lambda & Serverless Applications',
+    location: 'workshop',
     time: '',
-    description: '',
+    description: 'In this workshop, we take a high-level overview of AWS Lambda, a serverless computing platform that has changed the way developers around the world build applications. We examine how Lambda works under the hood, the capabilities it has, and how it is used. We also have a taste of AWS CDK and explore how this tool helps us to build and maintain our solution.',
   },
 ]
 
