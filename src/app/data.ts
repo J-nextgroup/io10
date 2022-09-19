@@ -113,8 +113,8 @@ export const speakers: Speaker[] = [
   },
   {
     picture: 'assets/logo.png',
-    portrait: ['assets/logo.png'],
-    isDefaultPicture: true,
+    portrait: ['assets/leone.png'],
+    isDefaultPicture: false,
     isDefaultBanner: true,
     remarks: 'Requires an AWS account ready to be used, which can be created for free.',
     title: 'Leone Lage Perdigão',
